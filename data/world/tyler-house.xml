@@ -16,7 +16,9 @@
   <house name="Farm Lane 2" houseid="14" entryx="116" entryy="391" entryz="7" rent="0" townid="2" size="30"/>
   <house name="Church Avenue 1" houseid="15" entryx="147" entryy="375" entryz="7" rent="0" townid="2" size="18"/>
   <house name="Church Avenue 2" houseid="16" entryx="147" entryy="382" entryz="7" rent="0" townid="2" size="18"/>
+  <house name="Church Avenue 3" houseid="17" entryx="151" entryy="400" entryz="7" rent="0" townid="2" size="34"/>
   <house name="Church Avenue 4" houseid="18" entryx="151" entryy="404" entryz="7" rent="0" townid="2" size="23"/>
+  <house name="Church Avenue 5" houseid="19" entryx="160" entryy="399" entryz="7" rent="0" townid="2" size="16"/>
   <house name="Church Avenue 7" houseid="20" entryx="162" entryy="404" entryz="7" rent="0" townid="2" size="20"/>
   <house name="City Walls 1" houseid="23" entryx="115" entryy="414" entryz="7" rent="0" townid="2" size="26"/>
   <house name="City Walls 2" houseid="24" entryx="115" entryy="414" entryz="6" rent="0" townid="2" size="26"/>

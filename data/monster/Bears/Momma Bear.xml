@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Momma Bear" namedescription="a momma bear" race="blood" experience="30000" speed="450" manacost="300">
+	<health now="80000" max="80000"/>
+	<look type="16" corpse="5975"/>
+	<targetchange interval="9000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="80" attack="160"/>
+		<attack name="physical" interval="2000" chance="15" range="7" min="-0" max="-500">
+			<attribute key="shootEffect" value="largerock"/>
+		</attack>
+	</attacks>
+	<defenses armor="40" defense="40"/>
+	<elements>
+		<element holyPercent="10"/>
+		<element icePercent="-10"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<voices interval="99000" chance="5">
+		<voice sentence="MOMMA BEAR LOVES HONEY"/>
+		<voice sentence="I EAT YO CHICKENZ"/>
+	</voices>
+	<loot>
+		<item id="5896" countmax="3" chance="7000"/><!-- bear paw -->
+		<item id="2671" countmax="3" chance="20000"/><!-- ham -->
+		<item id="2666" countmax="4" chance="39750"/><!-- meat -->
+		<item id="5902" chance="4600"/><!-- honeycomb -->
+	</loot>
+</monster>

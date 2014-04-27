@@ -7,6 +7,29 @@ function onCreatureDisappear(cid)		npcHandler:onCreatureDisappear(cid)			end
 function onCreatureSay(cid, type, msg)	npcHandler:onCreatureSay(cid, type, msg)	end
 function onThink()						npcHandler:onThink()						end
 
+function doPlayerAddAddons(cid, addon) 
+        for x = 128, 134 do 
+            doPlayerAddOutfit(cid, x, addon) 
+        end 
+        for y = 143, 146 do 
+            doPlayerAddOutfit(cid, y, addon) 
+        end 
+        for z = 151, 154 do 
+            doPlayerAddOutfit(cid, z, addon) 
+        end 
+            doPlayerAddOutfit(cid, 251, addon) 
+        for x = 136, 142 do 
+            doPlayerAddOutfit(cid, x, addon) 
+        end 
+        for y = 147, 150 do 
+            doPlayerAddOutfit(cid, y, addon) 
+        end 
+        for z = 155, 158 do 
+            doPlayerAddOutfit(cid, z, addon) 
+        end 
+            doPlayerAddOutfit(cid, 252, addon) 
+end 
+
 function buyAddons(cid, message, keywords, parameters, node)
 	--TODO: buyAddons function in modules.lua
 	if(not npcHandler:isFocused(cid)) then

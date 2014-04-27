@@ -72,6 +72,7 @@
 
 	<!-- Bears -->
 	<monster name="Bear" file="Bears/bear.xml"/>
+	<monster name="Momma Bear" file="Bears/Momma Bear.xml"/>
 	<monster name="Panda" file="Bears/panda.xml"/>
 	<monster name="Polar Bear" file="Bears/polar bear.xml"/>
 	<monster name="Undead Cavebear" file="Bears/undead cavebear.xml"/>
