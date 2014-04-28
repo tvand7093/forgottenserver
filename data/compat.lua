@@ -126,6 +126,23 @@ function getPlayerLossPercent(cid) local p = Player(cid) return p ~= nil and p:g
 function getPlayerMount(cid, mountId) local p = Player(cid) return p ~= nil and p:hasMount(mountId) or false end
 function getPlayerPremiumDays(cid) local p = Player(cid) return p ~= nil and p:getPremiumDays() or false end
 function getPlayerBlessing(cid, blessing) local p = Player(cid) return p ~= nil and p:hasBlessing(blessing) or false end
+function showModalWindow(cid, title, message, enterButton, closeButton)
+	local w = ModalWindow()
+
+	if(title == nil or message == nil or enterButton == nil) then
+		return
+	end
+	w:setMessage(message)
+	w:setTitle(title)
+	w:addButton(0, enterButton)
+	w:setDefaultEnterButton(0)
+
+	if(closeButton ~= nil) then
+		w:addButton(1, closeButton)
+		w:setDefaultEscapeButton(1)
+	end
+	w:sendToPlayer(cid)
+end
 function getPlayerParty(cid)
 	local player = Player(cid)
 	if player == nil then
