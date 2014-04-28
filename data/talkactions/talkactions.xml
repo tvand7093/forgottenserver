@@ -45,6 +45,7 @@
 	<talkaction words="!online" script="online.lua"/>
 	<talkaction words="!serverinfo" script="serverinfo.lua"/>
 	<talkaction words="!report" separator=" " script="adminreport.lua"/>
+	<talkaction words="!feature" separator=" " script="featurerequest.lua"/>
 	<talkaction words="!balance" script="banking.lua"/>
 	<talkaction words="!deposit" separator=" " script="banking.lua"/>
 
