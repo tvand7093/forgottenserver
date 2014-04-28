@@ -1,6 +1,6 @@
-local firstItems = {2050, 2382}
 
 function onLogin(cid)
+local firstItems = {2530,2398,2643,2480,2485,2649,1988,2554,2120}
 	local player = Player(cid)
 	
 	if player:getLastLoginSaved() == 0 then
