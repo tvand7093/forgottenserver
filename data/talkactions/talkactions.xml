@@ -32,6 +32,7 @@
 	<talkaction words="/ghost" script="ghost.lua" />
 	<talkaction words="/clean" script="clean.lua" />
 	<talkaction words="/hide" script="hide.lua" />
+	<talkaction words="/heal" script="heal.lua"/>
 
 	<!-- player talkactions -->
 	<talkaction words="!buypremium" script="buyprem.lua"/>
@@ -43,6 +44,9 @@
 	<talkaction words="!kills" script="kills.lua"/>
 	<talkaction words="!online" script="online.lua"/>
 	<talkaction words="!serverinfo" script="serverinfo.lua"/>
+	<talkaction words="!report" separator=" " script="adminreport.lua"/>
+	<talkaction words="!balance" script="banking.lua"/>
+	<talkaction words="!deposit" separator=" " script="banking.lua"/>
 
 	<!-- test talkactions -->
 	<talkaction words="!z" separator=" " script="magiceffect.lua"/>
