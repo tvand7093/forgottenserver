@@ -2,9 +2,11 @@ function onSay(cid, words, param, channel)
     local p = Player(cid)
 	local balance = p:getBankBalance()
 
-    if(param == '') then
+    if(words == '!balance') then
 		showModalWindow(cid, "Banking", "Your balance is " .. balance .. ".", "Done", nil)
-    end
+    elseif(words == "!deposit" and param ~= "") then
+		showModalWindow(cid, 
+	end
 
     return TRUE
 end
