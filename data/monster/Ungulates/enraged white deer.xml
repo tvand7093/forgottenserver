@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="White Deer" nameDescription="a white deer" race="blood" experience="165" speed="210" manacost="260">
-	<health now="255" max="255"/>
+<monster name="White Deer" nameDescription="a white deer" race="blood" experience="16500" speed="210" manacost="260">
+	<health now="25500" max="25500"/>
 	<look type="400" corpse="13513"/>
 	<targetchange interval="5000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
-		<flag hostile="0"/>
-		<flag illusionable="1"/>
-		<flag convinceable="1"/>
-		<flag pushable="1"/>
-		<flag canpushitems="0"/>
-		<flag canpushcreatures="0"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="26" attack="25"/>
+		<attack name="melee" interval="50" skill="70" attack="2500"/>
+		<attack name="ice" max="-240" chance="70" interval="2000" min="-100" target="1" radius="8">
+		<attribute value="icearea" key="areaEffect"/>
 	</attacks>
 	<defenses armor="25" defense="25"/>
 	<voices interval="5000" chance="10">
