@@ -3291,8 +3291,6 @@
   </spawn>
   <spawn centerx="950" centery="1014" centerz="9" radius="20">
     <monster name="Dwarf Guard" x="-6" y="-12" z="9" spawntime="60"/>
-    <monster name="Dwarf Geomancer" x="-7" y="-10" z="9" spawntime="60"/>
-    <monster name="Dwarf Geomancer" x="11" y="-9" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="1" y="-8" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="6" y="-8" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="9" y="-8" z="9" spawntime="60"/>
@@ -3300,7 +3298,6 @@
     <monster name="Dwarf Guard" x="3" y="-7" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="12" y="-7" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="13" y="-7" z="9" spawntime="60"/>
-    <monster name="Dwarf Geomancer" x="1" y="-6" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="7" y="-6" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="-7" y="-5" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="-6" y="-5" z="9" spawntime="60"/>
@@ -3354,7 +3351,6 @@
   </spawn>
   <spawn centerx="955" centery="1040" centerz="9" radius="2"/>
   <spawn centerx="939" centery="1041" centerz="9" radius="20">
-    <monster name="Dwarf Geomancer" x="-17" y="-2" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="-11" y="-2" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="-6" y="-2" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="-13" y="-1" z="9" spawntime="60"/>
@@ -3369,7 +3365,6 @@
     <monster name="Dwarf Soldier" x="-10" y="13" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="2" y="13" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="7" y="13" z="9" spawntime="60"/>
-    <monster name="Dwarf Geomancer" x="-10" y="14" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="-7" y="14" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="6" y="15" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="-7" y="16" z="9" spawntime="60"/>
@@ -3449,7 +3444,6 @@
     <monster name="Dwarf Soldier" x="2" y="0" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="17" y="1" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="-10" y="2" z="9" spawntime="60"/>
-    <monster name="Dwarf Geomancer" x="-8" y="2" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="-1" y="2" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="17" y="5" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="13" y="6" z="9" spawntime="60"/>
@@ -3473,7 +3467,6 @@
     <monster name="Dwarf Soldier" x="5" y="-13" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="11" y="-13" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="14" y="-13" z="9" spawntime="60"/>
-    <monster name="Dwarf Geomancer" x="16" y="-12" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="2" y="-11" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="11" y="-11" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="14" y="-11" z="9" spawntime="60"/>
@@ -3481,13 +3474,11 @@
     <monster name="Dwarf Guard" x="-6" y="-2" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="-6" y="0" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="-12" y="1" z="9" spawntime="60"/>
-    <monster name="Dwarf Geomancer" x="-18" y="2" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="-15" y="2" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="-13" y="3" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="-6" y="3" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="-8" y="7" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="-7" y="9" z="9" spawntime="60"/>
-    <monster name="Dwarf Geomancer" x="-6" y="9" z="9" spawntime="60"/>
     <monster name="Dwarf Soldier" x="-4" y="9" z="9" spawntime="60"/>
     <monster name="Ghoul" x="14" y="13" z="9" spawntime="60"/>
     <monster name="Bandit" x="18" y="15" z="9" spawntime="60"/>
@@ -3507,14 +3498,31 @@
     <monster name="Bandit" x="-1" y="1" z="9" spawntime="60"/>
     <monster name="Ghoul" x="0" y="3" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="892" centery="1117" centerz="9" radius="6">
+    <monster name="Lost Basher" x="2" y="-4" z="9" spawntime="60"/>
+    <monster name="Lost Husher" x="-3" y="-1" z="9" spawntime="60"/>
+    <monster name="Lost Thrower" x="2" y="0" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="1134" centery="1118" centerz="9" radius="8">
     <monster name="Tarantula" x="-2" y="-3" z="9" spawntime="60"/>
     <monster name="Tarantula" x="2" y="2" z="9" spawntime="60"/>
     <monster name="Tarantula" x="-4" y="6" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="852" centery="1120" centerz="9" radius="6">
+    <monster name="Lost Thrower" x="-4" y="-3" z="9" spawntime="60"/>
+    <monster name="Lost Basher" x="-4" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="880" centery="1120" centerz="9" radius="6">
+    <monster name="Lost Thrower" x="5" y="1" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="969" centery="1121" centerz="9" radius="5">
     <monster name="Hero" x="2" y="2" z="9" spawntime="60"/>
     <monster name="Hero" x="5" y="5" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="867" centery="1122" centerz="9" radius="6">
+    <monster name="Lost Thrower" x="-6" y="-3" z="9" spawntime="60"/>
+    <monster name="Lost Thrower" x="5" y="-1" z="9" spawntime="60"/>
+    <monster name="Lost Basher" x="-1" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="958" centery="1122" centerz="9" radius="5"/>
   <spawn centerx="988" centery="1125" centerz="9" radius="5">
@@ -3532,6 +3540,22 @@
     <monster name="Hero" x="0" y="0" z="9" spawntime="60"/>
     <monster name="Hero" x="3" y="2" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="847" centery="1130" centerz="9" radius="6">
+    <monster name="Lost Basher" x="-6" y="-1" z="9" spawntime="60"/>
+    <monster name="Lost Thrower" x="-4" y="0" z="9" spawntime="60"/>
+    <monster name="Lost Husher" x="-2" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="880" centery="1131" centerz="9" radius="6">
+    <monster name="Lost Husher" x="-5" y="0" z="9" spawntime="60"/>
+    <monster name="Lost Husher" x="-5" y="1" z="9" spawntime="60"/>
+    <monster name="Lost Thrower" x="0" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="892" centery="1131" centerz="9" radius="6">
+    <monster name="Lost Basher" x="1" y="-6" z="9" spawntime="60"/>
+    <monster name="Lost Husher" x="-3" y="-3" z="9" spawntime="60"/>
+    <monster name="Lost Basher" x="3" y="5" z="9" spawntime="60"/>
+    <monster name="Lost Thrower" x="-1" y="6" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="968" centery="1134" centerz="9" radius="5">
     <monster name="Bandit" x="0" y="-3" z="9" spawntime="60"/>
     <monster name="Ghoul" x="-2" y="-2" z="9" spawntime="60"/>
@@ -3548,6 +3572,43 @@
     <monster name="Bandit" x="-3" y="1" z="9" spawntime="60"/>
     <monster name="Ghoul" x="2" y="1" z="9" spawntime="60"/>
     <monster name="Ghost" x="-2" y="2" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="891" centery="1141" centerz="9" radius="6">
+    <monster name="Lost Husher" x="-1" y="3" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="864" centery="1142" centerz="9" radius="6">
+    <monster name="Lost Basher" x="3" y="-6" z="9" spawntime="60"/>
+    <monster name="Lost Husher" x="4" y="0" z="9" spawntime="60"/>
+    <monster name="Lost Basher" x="6" y="0" z="9" spawntime="60"/>
+    <monster name="Lost Thrower" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="878" centery="1143" centerz="9" radius="6">
+    <monster name="Lost Thrower" x="6" y="6" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="848" centery="1145" centerz="9" radius="6">
+    <monster name="Lost Basher" x="6" y="-3" z="9" spawntime="60"/>
+    <monster name="Lost Thrower" x="1" y="-1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="832" centery="1153" centerz="9" radius="6">
+    <monster name="Lost Basher" x="5" y="-1" z="9" spawntime="60"/>
+    <monster name="Lost Thrower" x="-2" y="0" z="9" spawntime="60"/>
+    <monster name="Lost Husher" x="4" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="883" centery="1153" centerz="9" radius="6">
+    <monster name="Lost Basher" x="1" y="3" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="870" centery="1154" centerz="9" radius="6">
+    <monster name="Lost Husher" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="847" centery="1156" centerz="9" radius="6">
+    <monster name="Lost Husher" x="-1" y="-3" z="9" spawntime="60"/>
+    <monster name="Lost Basher" x="2" y="2" z="9" spawntime="60"/>
+    <monster name="Lost Thrower" x="1" y="5" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="841" centery="1169" centerz="9" radius="6">
+    <monster name="Lost Basher" x="1" y="-2" z="9" spawntime="60"/>
+    <monster name="Lost Thrower" x="-5" y="-1" z="9" spawntime="60"/>
+    <monster name="Lost Husher" x="3" y="1" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="1507" centery="1471" centerz="9" radius="5">
     <monster name="Black Knight" x="-2" y="-1" z="9" spawntime="60"/>
@@ -4005,6 +4066,13 @@
     <monster name="Dwarf Guard" x="0" y="1" z="10" spawntime="60"/>
     <monster name="Dwarf Geomancer" x="-3" y="2" z="10" spawntime="60"/>
   </spawn>
+  <spawn centerx="926" centery="1097" centerz="10" radius="6">
+    <monster name="Lost Thrower" x="2" y="-5" z="10" spawntime="60"/>
+    <monster name="Dwarf Geomancer" x="-1" y="-4" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="1" y="-3" z="10" spawntime="60"/>
+    <monster name="Dwarf Geomancer" x="3" y="-3" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="0" y="3" z="10" spawntime="60"/>
+  </spawn>
   <spawn centerx="1143" centery="1106" centerz="10" radius="5">
     <monster name="Dragon" x="-3" y="4" z="10" spawntime="60"/>
   </spawn>
@@ -4013,6 +4081,32 @@
     <monster name="Dwarf Guard" x="0" y="1" z="10" spawntime="60"/>
     <monster name="Dwarf Geomancer" x="1" y="1" z="10" spawntime="60"/>
     <monster name="Dwarf Geomancer" x="0" y="5" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="926" centery="1111" centerz="10" radius="6">
+    <monster name="Lost Thrower" x="1" y="-4" z="10" spawntime="60"/>
+    <monster name="Dwarf Geomancer" x="0" y="-3" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="0" y="3" z="10" spawntime="60"/>
+    <monster name="Lost Thrower" x="0" y="5" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="898" centery="1121" centerz="10" radius="5">
+    <monster name="Dwarf Guard" x="-1" y="-4" z="10" spawntime="60"/>
+    <monster name="Lost Thrower" x="1" y="-1" z="10" spawntime="60"/>
+    <monster name="Dwarf Geomancer" x="2" y="0" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="4" y="0" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="-1" y="4" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="913" centery="1121" centerz="10" radius="5">
+    <monster name="Dwarf Guard" x="-3" y="-1" z="10" spawntime="60"/>
+    <monster name="Lost Thrower" x="0" y="-1" z="10" spawntime="60"/>
+    <monster name="Dwarf Geomancer" x="-5" y="0" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="0" y="0" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="4" y="0" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="-1" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="923" centery="1121" centerz="10" radius="6">
+    <monster name="Dwarf Guard" x="3" y="-2" z="10" spawntime="60"/>
+    <monster name="Lost Thrower" x="1" y="0" z="10" spawntime="60"/>
+    <monster name="Dwarf Geomancer" x="5" y="1" z="10" spawntime="60"/>
   </spawn>
   <spawn centerx="1134" centery="1124" centerz="10" radius="5">
     <monster name="Dragon" x="0" y="-5" z="10" spawntime="180"/>
@@ -4025,6 +4119,13 @@
   <spawn centerx="939" centery="1128" centerz="10" radius="5">
     <monster name="Lich" x="0" y="1" z="10" spawntime="60"/>
   </spawn>
+  <spawn centerx="898" centery="1134" centerz="10" radius="6">
+    <monster name="Dwarf Geomancer" x="-1" y="-2" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="-2" y="-1" z="10" spawntime="60"/>
+    <monster name="Lost Thrower" x="-1" y="2" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="0" y="2" z="10" spawntime="60"/>
+    <monster name="Dwarf Geomancer" x="-1" y="4" z="10" spawntime="60"/>
+  </spawn>
   <spawn centerx="938" centery="1138" centerz="10" radius="5">
     <monster name="Lich" x="0" y="0" z="10" spawntime="60"/>
     <monster name="Lich" x="1" y="1" z="10" spawntime="60"/>
@@ -4035,6 +4136,13 @@
     <monster name="Hero" x="2" y="2" z="10" spawntime="60"/>
     <monster name="Hero" x="1" y="3" z="10" spawntime="60"/>
   </spawn>
+  <spawn centerx="913" centery="1141" centerz="10" radius="5">
+    <monster name="Dwarf Geomancer" x="-4" y="0" z="10" spawntime="60"/>
+    <monster name="Lost Thrower" x="-3" y="0" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="-1" y="0" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="0" y="0" z="10" spawntime="60"/>
+    <monster name="Dwarf Geomancer" x="2" y="0" z="10" spawntime="60"/>
+  </spawn>
   <spawn centerx="929" centery="1147" centerz="10" radius="5">
     <monster name="Necromancer" x="1" y="-3" z="10" spawntime="60"/>
     <monster name="Necromancer" x="0" y="1" z="10" spawntime="60"/>
@@ -4044,6 +4152,12 @@
     <monster name="Hero" x="-1" y="1" z="10" spawntime="60"/>
     <monster name="Hero" x="0" y="1" z="10" spawntime="60"/>
     <monster name="Hero" x="2" y="5" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="897" centery="1154" centerz="10" radius="5">
+    <monster name="Dwarf Geomancer" x="0" y="-4" z="10" spawntime="60"/>
+    <monster name="Dwarf Guard" x="0" y="-2" z="10" spawntime="60"/>
+    <monster name="Dwarf Geomancer" x="-1" y="2" z="10" spawntime="60"/>
+    <monster name="Lost Thrower" x="0" y="4" z="10" spawntime="60"/>
   </spawn>
   <spawn centerx="942" centery="1157" centerz="10" radius="8">
     <monster name="Priestess" x="-1" y="-5" z="10" spawntime="60"/>
