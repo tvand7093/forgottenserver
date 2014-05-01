@@ -19,7 +19,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="50" skill="70" attack="2500"/>
-		<attack name="ice" max="-240" chance="70" interval="2000" min="-100" target="1" radius="8">
+		<attack name="ice" max="-240" chance="70" interval="2000" min="-100" target="1" radius="8"/>
 		<attribute value="icearea" key="areaEffect"/>
 	</attacks>
 	<defenses armor="25" defense="25"/>
