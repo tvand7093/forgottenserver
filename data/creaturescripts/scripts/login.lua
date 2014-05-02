@@ -3,7 +3,7 @@ function onLogin(cid)
 
 	local loginStr = "Welcome to " .. configManager.getString(configKeys.SERVER_NAME) .. "!"
 	if player:getLastLoginSaved() <= 0 then
-		loginStr = loginStr .. " Please choose your outfit."
+		loginStr = loginStr .. " Please choose your outfit before I smack you in the face."
 		player:sendOutfitWindow()
 	else
 		if loginStr ~= "" then
