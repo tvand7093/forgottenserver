@@ -43,7 +43,7 @@ timeBetweenActions = 200
 timeBetweenExActions = 1000
 
 -- Map
-mapName = "forgotten"
+mapName = "Evolutions/Evolutions"
 mapAuthor = "Komic"
 
 -- Market
