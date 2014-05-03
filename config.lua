@@ -25,7 +25,7 @@ allowClones = "no"
 serverName = "Ho Bisogno Cibo"
 statusTimeout = 60000
 replaceKickOnLogin = "yes"
-maxPacketsPerSecond = 25
+maxPacketsPerSecond = 45
 
 -- Deaths
 -- NOTE: Leave deathLosePercent as -1 if you want to use the default
