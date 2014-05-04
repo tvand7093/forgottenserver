@@ -1879,6 +1879,12 @@
     <monster name="Wolf" x="-2" y="0" z="7" spawntime="60"/>
     <monster name="Wolf" x="0" y="3" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="885" centery="1118" centerz="7" radius="5">
+    <monster name="Tortoise" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Thornback Tortoise" x="1" y="1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-2" y="4" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="3" y="4" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="968" centery="1120" centerz="7" radius="5">
     <monster name="dragon hatchling" x="4" y="-2" z="7" spawntime="60"/>
     <monster name="dragon hatchling" x="-3" y="2" z="7" spawntime="60"/>
@@ -1891,6 +1897,12 @@
     <monster name="Wolf" x="2" y="1" z="7" spawntime="60"/>
     <monster name="Wolf" x="-2" y="2" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="875" centery="1125" centerz="7" radius="5">
+    <monster name="Crab" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="4" y="1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="0" y="4" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="1005" centery="1125" centerz="7" radius="5">
     <monster name="dragon hatchling" x="1" y="3" z="7" spawntime="60"/>
   </spawn>
@@ -1901,6 +1913,11 @@
   </spawn>
   <spawn centerx="981" centery="1127" centerz="7" radius="5">
     <monster name="dragon hatchling" x="-3" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="909" centery="1133" centerz="7" radius="5">
+    <monster name="Tortoise" x="3" y="1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-1" y="3" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-5" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="959" centery="1133" centerz="7" radius="5">
     <monster name="dragon hatchling" x="-4" y="-5" z="7" spawntime="60"/>
@@ -1915,10 +1932,43 @@
     <monster name="dragon hatchling" x="-1" y="-2" z="7" spawntime="60"/>
     <monster name="dragon hatchling" x="3" y="2" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="921" centery="1135" centerz="7" radius="5">
+    <monster name="Tortoise" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Crab" x="-5" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="871" centery="1137" centerz="7" radius="5">
+    <monster name="Thornback Tortoise" x="3" y="-4" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-4" y="-1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="5" y="1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-5" y="4" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="3" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="884" centery="1137" centerz="7" radius="5">
+    <monster name="Tortoise" x="-5" y="-4" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="5" y="-4" z="7" spawntime="60"/>
+    <monster name="Thornback Tortoise" x="3" y="-3" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="913" centery="1140" centerz="7" radius="5">
+    <monster name="Tortoise" x="-4" y="0" z="7" spawntime="60"/>
+    <monster name="Crab" x="0" y="3" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="2" y="3" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="1000" centery="1141" centerz="7" radius="5">
     <monster name="dragon hatchling" x="5" y="-3" z="7" spawntime="60"/>
     <monster name="dragon hatchling" x="4" y="0" z="7" spawntime="60"/>
     <monster name="dragon hatchling" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="900" centery="1143" centerz="7" radius="5">
+    <monster name="Tortoise" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-3" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="924" centery="1143" centerz="7" radius="5">
+    <monster name="Tortoise" x="-3" y="-2" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-1" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="946" centery="1144" centerz="7" radius="8">
     <monster name="dragon hatchling" x="-3" y="-6" z="7" spawntime="60"/>
@@ -1937,6 +1987,23 @@
     <monster name="dragon hatchling" x="-1" y="2" z="7" spawntime="60"/>
     <monster name="dragon hatchling" x="3" y="5" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="891" centery="1151" centerz="7" radius="5">
+    <monster name="Tortoise" x="2" y="-3" z="7" spawntime="60"/>
+    <monster name="Thornback Tortoise" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="873" centery="1152" centerz="7" radius="5">
+    <monster name="Tortoise" x="-5" y="-3" z="7" spawntime="60"/>
+    <monster name="Thornback Tortoise" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="0" y="2" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="3" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="854" centery="1156" centerz="7" radius="5">
+    <monster name="Crab" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Thornback Tortoise" x="1" y="1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-2" y="2" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="4" y="2" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="1008" centery="1160" centerz="7" radius="12">
     <monster name="dragon hatchling" x="8" y="-9" z="7" spawntime="60"/>
     <monster name="dragon hatchling" x="-4" y="-6" z="7" spawntime="60"/>
@@ -1949,6 +2016,51 @@
     <monster name="Dragon" x="-7" y="6" z="7" spawntime="60"/>
     <monster name="dragon hatchling" x="-5" y="8" z="7" spawntime="60"/>
     <monster name="dragon hatchling" x="3" y="9" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="862" centery="1165" centerz="7" radius="5">
+    <monster name="Tortoise" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Thornback Tortoise" x="-1" y="3" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="2" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="909" centery="1165" centerz="7" radius="5">
+    <monster name="Tortoise" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Thornback Tortoise" x="0" y="2" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-2" y="4" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="3" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="877" centery="1167" centerz="7" radius="5">
+    <monster name="Tortoise" x="3" y="-3" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-3" y="0" z="7" spawntime="60"/>
+    <monster name="Thornback Tortoise" x="2" y="1" z="7" spawntime="60"/>
+    <monster name="Thornback Tortoise" x="-1" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="899" centery="1172" centerz="7" radius="5">
+    <monster name="Crab" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="2" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="895" centery="1184" centerz="7" radius="5">
+    <monster name="Tortoise" x="-4" y="-1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="Thornback Tortoise" x="-1" y="2" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-5" y="4" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="3" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="908" centery="1184" centerz="7" radius="5">
+    <monster name="Tortoise" x="-5" y="-4" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="5" y="-4" z="7" spawntime="60"/>
+    <monster name="Thornback Tortoise" x="3" y="-3" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="877" centery="1185" centerz="7" radius="5">
+    <monster name="Thornback Tortoise" x="-1" y="-5" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-4" y="-2" z="7" spawntime="60"/>
+    <monster name="Crab" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="1" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="637" centery="1257" centerz="7" radius="1">
     <monster name="Skeleton Warrior" x="0" y="0" z="7" spawntime="60"/>
@@ -2236,7 +2348,6 @@
   <spawn centerx="586" centery="1470" centerz="7" radius="1">
     <monster name="Cyclops Drone" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="604" centery="1472" centerz="7" radius="1"/>
   <spawn centerx="1512" centery="1473" centerz="7" radius="5">
     <monster name="Hunter" x="-4" y="-3" z="7" spawntime="60"/>
     <monster name="Hunter" x="3" y="3" z="7" spawntime="60"/>
@@ -2323,7 +2434,6 @@
   <spawn centerx="559" centery="1506" centerz="7" radius="1">
     <monster name="Frost Giantess" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="596" centery="1506" centerz="7" radius="1"/>
   <spawn centerx="526" centery="1507" centerz="7" radius="1">
     <monster name="Frost Dragon" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
