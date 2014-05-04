@@ -5,6 +5,7 @@ function onDeath(cid, corpse, killer, mostDamage, unjustified, mostDamage_unjust
 	local player = Player(cid)
 
 	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You are dead.")
+	doSetCreatureDropLoot(cid, false)
 	if not deathListEnabled then
 		return
 	end
