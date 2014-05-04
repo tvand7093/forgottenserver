@@ -1,7 +1,7 @@
 -- Combat settings
 worldType = "pvp"
 hotkeyAimbotEnabled = "yes"
-protectionLevel = 1
+protectionLevel = 25
 killsToRedSkull = 10
 killsToBlackSkull = 50
 pzLocked = 25000
@@ -20,7 +20,7 @@ gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = "1000"
 motd = "Welcome to Blackhoefstudios Server!"
-onePlayerOnlinePerAccount = "yes"
+onePlayerOnlinePerAccount = "no"
 allowClones = "no"
 serverName = "Ho Bisogno Cibo"
 statusTimeout = 60000

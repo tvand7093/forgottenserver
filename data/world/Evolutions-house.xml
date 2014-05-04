@@ -3,7 +3,6 @@
   <house name="Enigma Square I" houseid="1" entryx="1011" entryy="989" entryz="7" rent="3500" townid="1" size="69"/>
   <house name="Enigma Square II" houseid="2" entryx="1003" entryy="989" entryz="7" rent="3150" townid="1" size="61"/>
   <house name="Enigma Square III" houseid="3" entryx="992" entryy="989" entryz="7" rent="2700" townid="1" size="51"/>
-  <house name="Enigma Square VI" houseid="6" entryx="1000" entryy="1007" entryz="7" rent="3100" townid="1" size="59"/>
   <house name="Enigma Square VII" houseid="7" entryx="1008" entryy="1007" entryz="7" rent="3500" townid="1" size="80"/>
   <house name="Enigma Square VIII" houseid="8" entryx="1010" entryy="1003" entryz="7" rent="4150" townid="1" size="84"/>
   <house name="Enigma Square IX" houseid="9" entryx="1010" entryy="997" entryz="7" rent="3050" townid="1" size="66"/>
