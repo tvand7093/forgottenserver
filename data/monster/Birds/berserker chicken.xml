@@ -49,5 +49,6 @@
 	</voices>
 	<loot>
 		<item id="2148" countmax="100" chance="50000"/><!-- gold coins -->
+		<item id="5890" countmax="1" chance="20000"/><!-- chicken feather -->
 	</loot>
 </monster>

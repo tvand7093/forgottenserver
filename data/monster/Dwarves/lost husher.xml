@@ -85,6 +85,7 @@
 		<item id="7452" chance="50"/><!-- Spiked Squelcher -->
 		<item id="2528" chance="440"/><!-- Tower Shield -->
 		<item id="20109" chance="770"/><!-- buckle -->
+		<item id="5880" countmax="2" chance="9470"/><!-- Iron Ore -->
 		<item id="2436" chance="280"/><!-- Skull Staff -->
 		<item id="7886" chance="880"/><!-- terra boots -->
 		<item id="2432" chance="330"/><!-- fire axe -->

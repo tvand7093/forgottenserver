@@ -44,6 +44,6 @@
 		<item id="2455" chance="3000"/><!-- crossbow -->
 		<item id="2525" chance="3000"/><!-- dwarven shield -->
 		<item id="2208" chance="120"/><!-- axe ring -->
-		<item id="5880" chance="300"/><!-- iron ore -->
+		<item id="5880" countmax="3" chance="2000"/><!-- iron ore -->
 	</loot>
 </monster>

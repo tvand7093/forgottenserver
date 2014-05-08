@@ -1,7 +1,7 @@
 -- Combat settings
 worldType = "pvp"
 hotkeyAimbotEnabled = "yes"
-protectionLevel = 25
+protectionLevel = 150
 killsToRedSkull = 10
 killsToBlackSkull = 50
 pzLocked = 25000
@@ -72,7 +72,7 @@ emoteSpells = "no"
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
 rateExp = 5
 rateSkill = 4
-rateLoot = 1
+rateLoot = 2
 rateMagic = 4
 rateSpawn = 2
 

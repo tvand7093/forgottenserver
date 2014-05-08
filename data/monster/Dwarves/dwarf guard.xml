@@ -36,7 +36,7 @@
 	<loot>
 		<item id="2148" countmax="30" chance="40000"/><!-- gold coin -->
 		<item id="7618" chance="380"/><!-- health potion -->
-		<item id="5880" chance="510"/><!-- iron ore -->
+		<item id="5880" countmax="4" chance="2300"/><!-- iron ore -->
 		<item id="2643" chance="40000"/><!-- leather boots -->
 		<item id="2150" chance="140"/><!-- small amethyst -->
 		<item id="2457" chance="1600"/><!-- steel helmet -->

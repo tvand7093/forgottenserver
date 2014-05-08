@@ -66,7 +66,7 @@
 		<item id="7591" chance="13650"/><!-- GHP -->
 		<item id="7590" chance="13650"/><!-- GMP -->
 		<item id="18421" chance="6870"/><!-- green crystal fragment -->
-		<item id="5880" chance="8490"/><!-- iron ore -->
+		<item id="5880" countmax="3" chance="8490"/><!-- iron ore -->
 		<item id="2114" chance="3920"/><!-- piggy bank -->
 		<item id="18418" chance="4610"/><!-- blue crystal splinter -->
 		<item id="18414" chance="3500"/><!-- violet crystal shard -->

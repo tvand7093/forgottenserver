@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Electric Wolf" nameDescription="an electric wolf" race="energy" experience="205" speed="200" manacost="0">
+	<health now="410" max="410"/>
+	<look type="391" corpse="13584"/>
+	<targetchange interval="4000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="30" attack="32"/>
+		<attack name="energy" interval="2000" chance="23" range="7" radius="4" target="1" min="-30" max="-55">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="manadrain" interval="2000" chance="10" range="7" min="-25" max="-80"/>
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="healing" interval="2000" chance="10" min="15" max="55">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity ice="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Raaarrr!"/>
+		<voice sentence="BZZZZTTTTT!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="56000"/><!-- gold coin -->
+		<item id="2666" countmax="4" chance="52000"/><!-- meat -->
+		<item id="5897" chance="5700"/><!-- wolf paw -->
+		<item id="2189" chance="2636"/><!-- wand of cosmic energy -->
+		
+	</loot>
+</monster>

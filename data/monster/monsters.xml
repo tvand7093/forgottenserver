@@ -18,6 +18,7 @@
 	<!-- Arachnids -->
 	<monster name="Crystal Spider" file="Arachnids/crystal spider.xml"/>
 	<monster name="Giant Spider" file="Arachnids/giant spider.xml"/>
+	<monster name="Raging Spider" file="Arachnids/raging spider.xml"/>
 	<monster name="Giant Spider Wyda" file="Arachnids/giant spider wyda.xml"/>
 	<monster name="Poison Spider" file="Arachnids/poison spider.xml"/>
 	<monster name="Sacred Spider" file="Arachnids/sacred spider.xml"/>
@@ -255,6 +256,7 @@
 
 	<!-- Canines -->
 	<monster name="Crystal Wolf" file="Canines/crystal wolf.xml"/>
+	<monster name="Electric Wolf" file="Canines/electric wolf.xml"/>
 	<monster name="Dog" file="Canines/dog.xml"/>
 	<monster name="Hellhound" file="Canines/hellhound.xml"/>
 	<monster name="Hot Dog" file="Canines/hot dog.xml"/>

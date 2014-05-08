@@ -2211,21 +2211,21 @@
 		<attribute key="weight" value="2500" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallearth" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="2182" article="a" name="snakebite rod">
 		<attribute key="description" value="It seems to twitch and quiver as if trying to escape your grip." />
 		<attribute key="weight" value="1900" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallearth" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="2183" article="a" name="hailstorm rod">
 		<attribute key="description" value="It grants you the power of striking your foes with furious hailstorms." />
 		<attribute key="weight" value="2700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallice" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="2184" article="a" name="crystal wand">
 		<attribute key="weight" value="2800" />
@@ -2235,49 +2235,49 @@
 		<attribute key="weight" value="2300" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="death" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="2186" article="a" name="moonlight rod">
 		<attribute key="description" value="Icecold rays of moonlight shimmer on its tip." />
 		<attribute key="weight" value="2100" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallice" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="2187" article="a" name="wand of inferno">
 		<attribute key="description" value="It unleashes the very fires of hell." />
 		<attribute key="weight" value="2700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="fire" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="2188" article="a" name="wand of decay">
 		<attribute key="description" value="It is half-rotten itself and reeks terribly." />
 		<attribute key="weight" value="2300" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="death" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="2189" article="a" name="wand of cosmic energy">
 		<attribute key="description" value="The energy of a radiant star is trapped inside its globe." />
 		<attribute key="weight" value="2500" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="energy" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="2190" article="a" name="wand of vortex">
 		<attribute key="description" value="Surges of energy rush through the tip of this wand." />
 		<attribute key="weight" value="1900" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="energy" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="2191" article="a" name="wand of dragonbreath">
 		<attribute key="description" value="Legends say that this wand holds the soul of a young dragon." />
 		<attribute key="weight" value="2100" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="fire" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="2192" article="a" name="crystal ball">
 		<attribute key="weight" value="3400" />
@@ -2480,8 +2480,16 @@
 	<item id="2217" article="a" name="spellbook">
 		<attribute key="weight" value="5800" />
 	</item>
+	
 	<item id="2218" article="a" name="paw amulet">
 		<attribute key="slotType" value="necklace" />
+		<attribute key="healthGain" value="3" />
+		<attribute key="healthTicks" value="500" />
+		<attribute key="manaGain" value="3" />
+		<attribute key="manaTicks" value="500" />
+		<attribute key="armor" value="1" />
+		
+		
 		<attribute key="weight" value="420" />
 	</item>
 	<item id="2219" article="a" name="banana skin">
@@ -3595,7 +3603,6 @@
 	<item id="2456" article="a" name="bow">
 		<attribute key="weight" value="3100" />
 		<attribute key="weaponType" value="distance" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="6" />
 	</item>
@@ -4069,11 +4076,11 @@
 	<item id="2545" article="a" name="poison arrow">
 		<attribute key="weight" value="80" />
 		<attribute key="slotType" value="ammo" />
-		<attribute key="attack" value="23" />
+		<attribute key="attack" value="32" />
 		<attribute key="weaponType" value="ammunition" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="shootType" value="poisonarrow" />
-		<attribute key="maxHitChance" value="90" />
+		<attribute key="hitChance" value="100" />
 		<attribute key="ammoAction" value="removecount" />
 	</item>
 	<item id="2546" article="a" name="burst arrow">
@@ -11363,6 +11370,8 @@
 	<item id="6558" name="concentrated demonic blood">
 		<attribute key="description" value="Shake it to create a potion." />
 		<attribute key="weight" value="200" />
+		
+		
 	</item>
 	<item id="6559" name="" />
 	<item id="6560" article="a" name="dead human">
@@ -12750,7 +12759,6 @@
 	<item id="7438" article="an" name="elvish bow">
 		<attribute key="description" value="This beautifully ornamented bow was made by a skilled elvish bowmaker." />
 		<attribute key="weight" value="3900" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="6" />
@@ -14007,12 +14015,12 @@
 	<item id="7838" article="a" name="flash arrow">
 		<attribute key="weight" value="70" />
 		<attribute key="slotType" value="ammo" />
-		<attribute key="attack" value="14" />
+		<attribute key="attack" value="25" />
 		<attribute key="elementEnergy" value="14" />
 		<attribute key="weaponType" value="ammunition" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="shootType" value="flasharrow" />
-		<attribute key="maxHitChance" value="90" />
+		<attribute key="hitChance" value="100" />
 		<attribute key="ammoAction" value="removecount" />
 	</item>
 	<item id="7839" article="a" name="shiver arrow">
@@ -15591,7 +15599,6 @@
 	</item>
 	<item id="8854" article="a" name="warsinger bow">
 		<attribute key="weight" value="4500" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="7" />
@@ -15609,7 +15616,6 @@
 	</item>
 	<item id="8856" name="Yol's bow">
 		<attribute key="weight" value="3500" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="7" />
@@ -15617,7 +15623,6 @@
 	</item>
 	<item id="8857" article="a" name="silkweaver bow">
 		<attribute key="weight" value="2200" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="6" />
@@ -15918,21 +15923,21 @@
 		<attribute key="weight" value="2900" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="death" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="8911" article="a" name="northwind rod">
 		<attribute key="description" value="It was made by one of the shamans in Svargrond and symbolises an icy mammoth." />
 		<attribute key="weight" value="2900" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="ice" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="8912" article="a" name="springsprout rod">
 		<attribute key="description" value="It is filled with the energy of growing plants." />
 		<attribute key="weight" value="2700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallearth" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item fromid="8913" toid="8917" name="earth" />
 	<item id="8918" article="a" name="spellbook of dark mysteries">
@@ -15950,21 +15955,21 @@
 		<attribute key="weight" value="2550" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="energy" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="8921" article="a" name="wand of draconia">
 		<attribute key="description" value="This wand holds the spirit and soul of a dragon lord." />
 		<attribute key="weight" value="2700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="fire" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="8922" article="a" name="wand of voodoo">
 		<attribute key="description" value="It is filled with the dark hatred and rage of a tormented demonic being." />
 		<attribute key="weight" value="2850" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="death" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item id="8923" name="ranger legs">
 		<attribute key="weight" value="3500" />
@@ -18218,7 +18223,6 @@
 	<item id="10295" article="a" name="musician's bow">
 		<attribute key="description" value="If you could only figure out how you are supposed to fire more arrows at once." />
 		<attribute key="weight" value="1250" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="4" />
@@ -22246,7 +22250,7 @@
 		<attribute key="weight" value="2800" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="death" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="7" />
 	</item>
 	<item fromid="13761" toid="13773" name="rubbish" />
 	<item id="13774" name="torn teddy">
@@ -22475,7 +22479,6 @@
 	<item id="13873" article="a" name="shimmer bow">
 		<attribute key="weight" value="4800" />
 		<attribute key="weaponType" value="distance" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="6" />
 		<attribute key="attack" value="1" />
@@ -23902,7 +23905,6 @@
 	</item>
 	<item id="15643" article="a" name="hive bow">
 		<attribute key="weight" value="4600" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="6" />
@@ -24903,7 +24905,7 @@
 		<attribute key="weight" value="3700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="energy" />
-		<attribute key="range" value="4" />
+		<attribute key="range" value="7" />
 		<attribute key="magiclevelpoints" value="1" />
 	</item>
 	<item id="18391" article="a" name="glowing mushroom">
@@ -25031,7 +25033,7 @@
 		<attribute key="weight" value="3700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="fire" />
-		<attribute key="range" value="4" />
+		<attribute key="range" value="7" />
 		<attribute key="magiclevelpoints" value="1" />
 	</item>
 	<item id="18410" article="a" name="prismatic shield">
@@ -25047,7 +25049,7 @@
 		<attribute key="weight" value="3700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallearth" />
-		<attribute key="range" value="4" />
+		<attribute key="range" value="7" />
 		<attribute key="magiclevelpoints" value="1" />
 	</item>
 	<item id="18412" article="a" name="glacial rod">
@@ -25055,7 +25057,7 @@
 		<attribute key="weight" value="3700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallice" />
-		<attribute key="range" value="4" />
+		<attribute key="range" value="7" />
 		<attribute key="magiclevelpoints" value="1" />
 	</item>
 	<item id="18413" article="a" name="blue crystal shard">
@@ -25256,7 +25258,6 @@
 	</item>
 	<item id="18454" article="a" name="mycological bow">
 		<attribute key="weight" value="4900" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="6" />
@@ -29207,7 +29208,6 @@
 	</item>
 	<item id="21696" article="an" name="icicle bow">
 		<attribute key="weight" value="4200" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="6" />
@@ -29459,7 +29459,6 @@
 	</item>
 	<item id="22418" article="a" name="umbral master bow">
 		<attribute key="weight" value="4000" />
-		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="7" />
