@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Momma Bear" namedescription="a momma bear" race="blood" experience="18000" speed="450" manacost="300">
-	<health now="80000" max="80000"/>
+<monster name="Momma Bear" namedescription="a momma bear" race="blood" experience="65000" speed="450" manacost="300">
+	<health now="41000" max="41000"/>
 	<look type="16" corpse="5975"/>
 	<targetchange interval="9000" chance="0"/>
 	<strategy attack="100" defense="0"/>
@@ -18,7 +18,7 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="80" attack="160"/>
+		<attack name="melee" interval="1000" skill="80" attack="160"/>
 		<attack name="physical" interval="2000" chance="30" range="7" min="-0" max="-700">
 			<attribute key="shootEffect" value="largerock"/>
 		</attack>
@@ -29,7 +29,7 @@
 		<element icePercent="-10"/>
 		<element deathPercent="-5"/>
 	</elements>
-	<voices interval="99000" chance="5">
+	<voices interval="99000" chance="22">
 		<voice sentence="MOMMA BEAR LOVES HONEY"/>
 		<voice sentence="I EAT YO CHICKENZ"/>
 	</voices>

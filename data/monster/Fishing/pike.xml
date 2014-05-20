@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pike" nameDescription="a pike" race="undead" experience="3000" speed="280" manacost="0">
+	<health now="695" max="695"/>
+	<look type="454" corpse="2226"/>
+	<targetchange interval="4000" chance="15"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="15"/>
+	</flags>
+	<attacks>
+	<attack name="melee" interval="2000" skill="60" attack="60"/>
+	<attack name="drown" interval="2000" chance="20" target="1" radius="3" min="-150" max="-280">
+			<attribute key="areaEffect" value="bubbles"/>
+		</attack>
+		
+		<attack name="ice" interval="2000" chance="10" length="3" spread="2" min="-160" max="-250">
+			<attribute key="areaEffect" value="icetornado"/>
+			
+		</attack>
+	</attacks>
+	<defenses armor="5" defense="5">
+		<defense name="healing" interval="2000" chance="15" min="40" max="80">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	
+	
+	<voices interval="5000" chance="10">
+		<voice sentence="Blub!"/>
+	</voices>
+</monster>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alan" script="food.lua" walkinterval="1000" speed="5" walkradius="2" floorchange="0">
+	<health max="100" now="100"/>
+	<look type="432" head="76" body="116" legs="114" feet="0" addons="2" mount="0"/>
+	
+	<parameters>
+		<parameter key="message_greet" value="Do you like to garden?"/>
+		<parameter key="message_decline" value="Remember to eat your veggies!"/>
+	</parameters>
+</npc>

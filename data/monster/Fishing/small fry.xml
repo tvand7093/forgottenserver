@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Small Fry" nameDescription="a small fry" race="undead" experience="700" speed="980" manacost="0">
+	<health now="225" max="225"/>
+	<look type="455" corpse="2226"/>
+	<targetchange interval="4000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="95"/>
+	</flags>
+	
+	<attacks>
+		<attack name="death" interval="1000" chance="70" radius="5" target="0" min="-6" max="-20">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</attack>
+	<defenses armor="5" defense="5"/>
+	</attacks>
+	<voices interval="5000" chance="10">
+		<voice sentence="swim swim swim!"/>
+		<voice sentence="Blub!"/>
+	</voices>
+</monster>
