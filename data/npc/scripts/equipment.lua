@@ -16,7 +16,7 @@ shopModule:addBuyableItem({'blue backpack'}, 2002, 20, 1,'blue backpack')
 shopModule:addBuyableItem({'brocade backpack'}, 9774, 20, 1,'brocade backpack') 
 shopModule:addBuyableItem({'camouflage backpack'}, 3940, 20, 1,'camouflage backpack')
 shopModule:addBuyableItem({'golden backpack'}, 2004, 20, 1,'golden backpack')
-shopModule:addBuyableItem({'green backpack'}, 1998, 20, 1,'green backpack')]
+shopModule:addBuyableItem({'green backpack'}, 1998, 20, 1,'green backpack')
 shopModule:addBuyableItem({'grey backpack'}, 2003, 20, 1,'grey backpack')
 shopModule:addBuyableItem({'orange backpack'}, 10519, 20, 1,'orange backpack')
 shopModule:addBuyableItem({'purple backpack'}, 2001, 20, 1,'purple backpack')
@@ -48,7 +48,7 @@ shopModule:addBuyableItem({'worm'}, 3876, 10, 1,'worm')
 
 
 
-shopModule:addSellableItem({'Crystal Pedestal'}, 9976, 500, 1'Crystal Pedestal')
+shopModule:addSellableItem({'Crystal Pedestal'}, 9976, 500, 1,'Crystal Pedestal')
 
 
 
