@@ -4,7 +4,7 @@
 	<monster name="Small Fry" file="Fishing/small fry.xml"/>
 	<monster name="Hydro Ray" file="Fishing/hydro ray.xml"/>
 	<monster name="Pike" file="Fish/northern pike.xml"/>
-	<monster name="Shark" file="Fish/shark.xml"/>
+	<monster name="Tuber" file="Fishing/tuber.xml"/>
 	
 	
 	<!-- Amazons -->

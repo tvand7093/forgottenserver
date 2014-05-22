@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Tuber" nameDescription="a tuber" race="blood" experience="700" speed="230" manacost="0">
-	<health now="1200" max="1200"/>
+<monster name="Tuber" nameDescription="a tuber" race="blood" experience="20000" speed="230" manacost="0">
+	<health now="11200" max="11200"/>
 	<look type="453" corpse="15287"/>
 	<targetchange interval="4000" chance="10"/>
 	<strategy attack="100" defense="0"/>
@@ -18,7 +18,11 @@
 		<flag staticattack="90"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="60" attack="50"/>
+		<attack name="melee" interval="2000" skill="140" attack="179"/>
+		
+		<attack name="ice" interval="2000" chance="34" radius="3" target="0" min="-390" max="-650">
+			<attribute key="areaEffect" value="bubbles"/>
+		</attack>
 	</attacks>
 	<defenses armor="15" defense="15"/>
 	<immunities>
