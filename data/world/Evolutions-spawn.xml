@@ -1807,8 +1807,8 @@
     <monster name="Bog Raider" x="13" y="7" z="7" spawntime="60"/>
     <monster name="Bog Raider" x="-9" y="14" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1021" centery="977" centerz="7" radius="1">
-    <npc name="Dave" x="0" y="0" z="7" spawntime="60"/>
+  <spawn centerx="1022" centery="977" centerz="7" radius="1">
+    <npc name="Dave" x="-1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1036" centery="977" centerz="7" radius="1">
     <npc name="Robin" x="0" y="0" z="7" spawntime="60"/>
@@ -2249,18 +2249,11 @@
     <monster name="dragon hatchling" x="4" y="-2" z="7" spawntime="60"/>
     <monster name="dragon hatchling" x="-3" y="2" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1128" centery="1120" centerz="7" radius="5">
-    <monster name="Horse" x="-2" y="-1" z="7" spawntime="60"/>
-    <monster name="Wild Horse" x="-1" y="1" z="7" spawntime="60"/>
-    <monster name="Horse" x="-2" y="4" z="7" spawntime="60"/>
-  </spawn>
+  <spawn centerx="1128" centery="1120" centerz="7" radius="5"/>
   <spawn centerx="994" centery="1121" centerz="7" radius="5">
     <monster name="dragon hatchling" x="-1" y="-1" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1120" centery="1121" centerz="7" radius="5">
-    <monster name="Horse" x="-4" y="0" z="7" spawntime="60"/>
-    <monster name="Wild Horse" x="1" y="1" z="7" spawntime="60"/>
-  </spawn>
+  <spawn centerx="1120" centery="1121" centerz="7" radius="5"/>
   <spawn centerx="948" centery="1122" centerz="7" radius="5">
     <monster name="Wolf" x="-2" y="-1" z="7" spawntime="60"/>
     <monster name="Wolf" x="2" y="1" z="7" spawntime="60"/>

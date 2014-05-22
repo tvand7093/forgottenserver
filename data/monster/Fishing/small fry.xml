@@ -19,7 +19,7 @@
 	
 	<attacks>
 		<attack name="death" interval="1000" chance="70" radius="5" target="0" min="-6" max="-20">
-			<attribute key="areaEffect" value="blueshimmer"/>
+			<attribute key="areaEffect" value="ice"/>
 		</attack>
 	<defenses armor="5" defense="5"/>
 	</attacks>
