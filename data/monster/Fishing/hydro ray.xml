@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Hydro Ray" nameDescription="a hydro ray" race="blood" experience="25125" speed="200" manacost="0">
-	<health now="2680" max="2680"/>
+	<health now="4680" max="4680"/>
 	<look type="449" corpse="15276"/>
 	<targetchange interval="4000" chance="70"/>
 	<strategy attack="100" defense="0"/>
@@ -17,18 +17,18 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="34" attack="45"/>
+		<attack name="melee" interval="2000" skill="80" attack="145"/>
 		
 		<attack name="energy" interval="2000" chance="10" range="7" min="-15" max="-75">
 			<attribute key="shootEffect" value="energy"/>
 			<attribute key="areaEffect" value="energy"/>
 		</attack>
 		
-		<attack name="drown" interval="2000" chance="10" length="8" spread="3" min="-200" max="-300">
+		<attack name="drown" interval="2000" chance="10" length="8" spread="3" min="-400" max="-700">
 			<attribute key="areaEffect" value="explosionarea"/>
 		</attack>
 		
-		<attack name="energy" interval="2000" chance="10" length="4" spread="0" target="0">
+		<attack name="energy" interval="2000" chance="10" radius="2" target="1" min="-100" max="-200"      >
 			<attribute key="areaEffect" value="energy"/>
 		</attack>
 		

@@ -17,7 +17,7 @@ shopModule:addBuyableItem({'crossbow'}, 2455, 500, 1,'crossbow')
 shopModule:addBuyableItem({'spear'}, 2389, 9, 1,'spear')
 shopModule:addBuyableItem({'royal spear'}, 7378, 15, 1,'royal spear')
 shopModule:addBuyableItem({'throwing knife'}, 2410, 25, 1,'throwing knife')
-shopModule:addBuyableItem({'throwing star'}, 2399, 42, 1,'throwning star')
+shopModule:addBuyableItem({'throwing star'}, 2399, 42, 1,'throwing star')
 
 shopModule:addSellableItem({'bow'}, 2456, 100, 1,'bow')
 shopModule:addSellableItem({'chain bolter'}, 8850, 40000, 1,'chain bolter')

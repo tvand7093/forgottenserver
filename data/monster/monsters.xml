@@ -3,7 +3,7 @@
 	<!-- Fishing  -->
 	<monster name="Small Fry" file="Fishing/small fry.xml"/>
 	<monster name="Hydro Ray" file="Fishing/hydro ray.xml"/>
-	<monster name="Pike" file="Fish/northern pike.xml"/>
+	<monster name="Pike" file="Fishing/pike.xml"/>
 	<monster name="Tuber" file="Fishing/tuber.xml"/>
 	
 	
@@ -519,6 +519,7 @@
 	<monster name="Ancient Scarab" file="Insects/ancient scarab.xml"/>
 	<monster name="Blue Butterfly" file="Insects/blue butterfly.xml"/>
 	<monster name="Brimstone Bug" file="Insects/brimstone bug.xml"/>
+	<monster name="Venom Spider" file="Insects/venom spider.xml"/>
 	<monster name="Bug" file="Insects/bug.xml"/>
 	<monster name="Cockroach" file="Insects/cockroach.xml"/>
 	<monster name="Emerald Damselfly" file="Insects/emerald damselfly.xml"/>

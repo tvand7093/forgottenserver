@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Swampling" nameDescription="a swampling" race="venom" experience="45" speed="190" manacost="0">
-	<health now="80" max="80"/>
+<monster name="Swampling" nameDescription="a swampling" race="venom" experience="900" speed="190" manacost="0">
+	<health now="1200" max="1200"/>
 	<look type="535" corpse="19902"/>
 	<targetchange interval="4000" chance="0"/>
 	<strategy attack="100" defense="0"/>
@@ -18,11 +18,11 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="30" attack="40"/>
-		<attack name="earth" interval="2000" chance="15" range="7" min="-2" max="-15">
+		<attack name="melee" interval="2000" skill="50" attack="50"/>
+		<attack name="earth" interval="2000" chance="15" range="7" min="-65" max="-185">
 			<attribute key="shootEffect" value="poison"/>
 		</attack>
-		<attack name="speed" interval="2000" chance="15" length="3" spread="2" speedchange="-300" duration="5000">
+		<attack name="speed" interval="2000" chance="15" length="5" spread="4"  min="-125" max="-200" speedchange="-300" duration="5000">
 			<attribute key="areaEffect" value="watersplash"/>
 		</attack>
 	</attacks>

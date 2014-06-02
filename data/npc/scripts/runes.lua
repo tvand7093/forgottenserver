@@ -34,7 +34,7 @@ shopModule:addBuyableItem({'avalanche'}, 2274, 45, 1, 'avalanche rune')
 shopModule:addBuyableItem({'blank rune'}, 2260, 10, 1, 'blank rune')
 shopModule:addBuyableItem({'chameleon'}, 2291, 210, 1, 'chameleon rune')
 shopModule:addBuyableItem({'convince creature'}, 2290, 80, 1, 'convince creature rune')
-shopModule:addBuyableItem({'cure poison'}, 2266, 65, 1,'cure posoison rune')
+shopModule:addBuyableItem({'cure poison'}, 2266, 65, 1,'cure poison rune')
 shopModule:addBuyableItem({'desintegrate'}, 2310, 26, 1, 'desintegrate rune')
 shopModule:addBuyableItem({'destroy field'}, 2261, 15, 1, 'destroy field')
 shopModule:addBuyableItem({'energy bomb'}, 2262, 162, 1, 'energy bomb rune')
@@ -111,10 +111,10 @@ shopModule:addSellableItem({'hailstorm rod', 'hailstorm'}, 2183, 7500, 'hailstor
 shopModule:addSellableItem({'springsprout rod', 'springsprout'}, 8912, 9000, 'springsprout rod')
 shopModule:addSellableItem({'underworld rod', 'underworld'}, 8910, 11000, 'underworld rod')
 
-shopModule:addSellableItem({'spellbook of enlightenment'}, 8900, 4000, 1,'spellbook of enlightenment')
-shopModule:addSellableItem({'spellbook of lost souls'}, 8903, 19000, 1,'spellbook of lost souls')
-shopModule:addSellableItem({'spellbook of mind control'}, 8902, 13000, 1,'spellbook of mind control')
-shopModule:addSellableItem({'spellbook of warding'}, 8901, 8000, 1,'spellbook of warding')
+shopModule:addSellableItem({'spellbook of enlightenment'}, 8900, 4000, 'spellbook of enlightenment')
+shopModule:addSellableItem({'spellbook of lost souls'}, 8903, 19000, 'spellbook of lost souls')
+shopModule:addSellableItem({'spellbook of mind control'}, 8902, 13000, 'spellbook of mind control')
+shopModule:addSellableItem({'spellbook of warding'}, 8901, 8000, 'spellbook of warding')
 
 
 function creatureSayCallback(cid, type, msg)

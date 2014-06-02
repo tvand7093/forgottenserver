@@ -15,6 +15,7 @@ npcHandler:addModule(shopModule)
 --helmets
 shopModule:addBuyableItem({'brass helmet'}, 2460, 120, 1, 'brass helmet')
 shopModule:addBuyableItem({'chain helmet'}, 2458, 52, 1, 'chain helmet')
+
 shopModule:addSellableItem({'bandana'}, 5917, 150, 1,'bandana') 
 shopModule:addSellableItem({'batwing hat'}, 10016, 8000, 1,'batwing hat') 
 shopModule:addSellableItem({'bonelord helmet'}, 3972, 7500, 1,'bonelord helmet') 
@@ -60,6 +61,7 @@ shopModule:addBuyableItem({'coat'}, 2651, 8, 1, 'coat')
 shopModule:addBuyableItem({'green tunic'}, 2652, 25, 1, 'green tunic')
 shopModule:addBuyableItem({'jacket'}, 2650, 12, 1, 'jacket')
 shopModule:addBuyableItem({'leather armor'}, 2467, 25, 1, 'leather armor')
+
 shopModule:addSellableItem({'belted cape'}, 8872, 500, 1,'belted cape')
 shopModule:addSellableItem({'blue robe'}, 2656, 10000, 1,'blue robe')
 shopModule:addSellableItem({'brass armor'}, 2465, 150, 1,'brass armor')
