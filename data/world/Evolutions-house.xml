@@ -3,9 +3,6 @@
   <house name="Enigma Square I" houseid="1" entryx="1011" entryy="989" entryz="7" rent="3500" townid="1" size="69"/>
   <house name="Enigma Square II" houseid="2" entryx="1003" entryy="989" entryz="7" rent="3150" townid="1" size="61"/>
   <house name="Enigma Square III" houseid="3" entryx="992" entryy="989" entryz="7" rent="2700" townid="1" size="51"/>
-  <house name="Enigma Square VII" houseid="7" entryx="1008" entryy="1007" entryz="7" rent="3500" townid="1" size="80"/>
-  <house name="Enigma Square VIII" houseid="8" entryx="1010" entryy="1003" entryz="7" rent="4150" townid="1" size="84"/>
-  <house name="Enigma Square IX" houseid="9" entryx="1010" entryy="997" entryz="7" rent="3050" townid="1" size="66"/>
   <house name="Ocean Mansion" houseid="28" entryx="1009" entryy="956" entryz="7" rent="2000" townid="1" size="78"/>
   <house name="Ocean Plaza I" houseid="29" entryx="1012" entryy="949" entryz="7" rent="850" townid="1" size="32"/>
   <house name="Ocean Plaza II" houseid="30" entryx="1017" entryy="949" entryz="7" rent="850" townid="1" size="32"/>
@@ -76,4 +73,7 @@
   <house name="Unnamed House #2328" houseid="2328" entryx="1018" entryy="556" entryz="7" rent="0" townid="1" size="26"/>
   <house name="Unnamed House #2329" houseid="2329" entryx="1032" entryy="553" entryz="7" rent="0" townid="1" size="13"/>
   <house name="Unnamed House #2330" houseid="2330" entryx="1033" entryy="553" entryz="7" rent="0" townid="1" size="20"/>
+  <house name="Enigma fix 1" houseid="2331" entryx="1010" entryy="997" entryz="7" rent="0" townid="1" size="67"/>
+  <house name="Unnamed House #2332" houseid="2332" entryx="1010" entryy="1003" entryz="7" rent="0" townid="1" size="84"/>
+  <house name="Jaden" houseid="2333" entryx="0" entryy="0" entryz="0" rent="0" townid="1" size="80"/>
 </houses>

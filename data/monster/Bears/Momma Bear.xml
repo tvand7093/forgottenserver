@@ -29,6 +29,12 @@
 		<element icePercent="-10"/>
 		<element deathPercent="-5"/>
 	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+	</immunities>
+	
 	<voices interval="99000" chance="22">
 		<voice sentence="MOMMA BEAR LOVES HONEY"/>
 		<voice sentence="I EAT YO CHICKENZ"/>

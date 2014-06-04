@@ -591,6 +591,7 @@
 	<!-- Misc Reptiles -->
 	<monster name="Crocodile" file="Misc/Misc Reptiles/crocodile.xml"/>
 	<monster name="Hydra" file="Misc/Misc Reptiles/hydra.xml"/>
+	<monster name="Hydrona" file="Misc/Misc Reptiles/hydrona.xml"/>
 	<monster name="Killer Caiman" file="Misc/Misc Reptiles/killer caiman.xml"/>
 	<monster name="Thornback Tortoise" file="Misc/Misc Reptiles/thornback tortoise.xml"/>
 	<monster name="Tortoise" file="Misc/Misc Reptiles/tortoise.xml"/>
