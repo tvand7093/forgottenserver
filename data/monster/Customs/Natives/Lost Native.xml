@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lost Native" nameDescription="a Lost Native" race="blood" experience="725" speed="250" manacost="0">
+  <health now="1120" max="1120"/>
+
+*******************************************************************************************
+*                   LOST NATIVE: This monster Was made by Maniac                          *
+*             Script and credits to Maniac, member of R.I.P. forum otfusion.org           *
+*******************************************************************************************
+
+  <look type="154" head="116" body="58" legs="61" feet="0" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/> 
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="65" attack="65"/>
+    <attack name="fire" interval="1000" chance="5" range="7" radius="3" target="1" min="-43" max="-97">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="physical" interval="1000" chance="20" range="7" min="-57" max="-134">
+      <attribute key="shootEffect" value="spear"/>
+    </attack>
+  </attacks>
+  <defenses armor="15" defense="12">
+    <defense name="speed" interval="1000" chance="15" speedchange="310" duration="6000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+    <defense name="healing" interval="1000" chance="15" min="50" max="80">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Buchae tack!"/>
+    <voice sentence="Nitha ooh!"/>
+  </voices>
+  <loot>
+   <item id="2148" chance="50000" countmax="52" /> -- gold coin
+   <item id="2671" chance="40000" countmax="3" /> --Ham
+   <item id="2148" chance="50000" countmax="53" /> -- gold coin
+   <item id="2148" chance="50000" countmax="12" /> -- gold coin
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="2148" chance="50000" countmax="70" /> -- gold coin
+        <item id="2165" chance="3333" /> -- stealth ring
+        <item id="2200" chance="3000" /> -- protection amulet
+        <item id="2187" chance="2522" /> -- wand of Inferno
+        <item id="2148" chance="50000" countmax="22" /> -- gold coin
+      </inside>
+    </item>
+  </loot>
+</monster>

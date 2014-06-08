@@ -557,7 +557,7 @@
     <monster name="Energy Elemental" x="0" y="1" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="1637" centery="1042" centerz="5" radius="1">
-    <npc name="Frodo" x="0" y="0" z="5" spawntime="60"/>
+    <npc name="Deruno" x="0" y="0" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="1046" centery="1073" centerz="5" radius="5">
     <monster name="Wild Warrior" x="-4" y="-1" z="5" spawntime="60"/>
@@ -1537,23 +1537,17 @@
     <monster name="Massive Energy Elemental" x="0" y="-3" z="6" spawntime="60"/>
     <monster name="Massive Energy Elemental" x="1" y="4" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="1658" centery="1030" centerz="6" radius="1">
-    <npc name="Xodet" x="0" y="0" z="6" spawntime="60"/>
-  </spawn>
   <spawn centerx="1057" centery="1033" centerz="6" radius="5">
     <monster name="Cyclops Drone" x="-2" y="-3" z="6" spawntime="60"/>
     <monster name="Cyclops" x="1" y="-2" z="6" spawntime="60"/>
     <monster name="Cyclops" x="-4" y="0" z="6" spawntime="60"/>
     <monster name="Cyclops" x="2" y="2" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="1649" centery="1033" centerz="6" radius="1">
-    <npc name="Rashid" x="0" y="0" z="6" spawntime="60"/>
-  </spawn>
   <spawn centerx="1640" centery="1038" centerz="6" radius="1">
-    <npc name="Nah Alesar" x="0" y="0" z="6" spawntime="60"/>
+    <npc name="Dave" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="1637" centery="1042" centerz="6" radius="1">
-    <npc name="Elane" x="0" y="0" z="6" spawntime="60"/>
+    <npc name="Robin" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="998" centery="1044" centerz="6" radius="5">
     <monster name="Wasp" x="2" y="-1" z="6" spawntime="60"/>
@@ -3520,7 +3514,7 @@
     <monster name="spider" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1585" centery="1051" centerz="7" radius="1">
-    <npc name="Xodet" x="1" y="0" z="7" spawntime="60"/>
+    <npc name="Eryn" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1089" centery="1052" centerz="7" radius="5">
     <monster name="Wolf" x="0" y="-5" z="7" spawntime="60"/>
@@ -3537,7 +3531,7 @@
     <monster name="Tarantula" x="0" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1616" centery="1053" centerz="7" radius="1">
-    <npc name="Gorn" x="0" y="-1" z="7" spawntime="60"/>
+    <npc name="Kiera" x="0" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1004" centery="1054" centerz="7" radius="5">
     <monster name="Troll" x="0" y="-1" z="7" spawntime="60"/>

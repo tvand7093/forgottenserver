@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Anonymous" nameDescription="an anonymous" race="blood" experience="5000" speed="400" manacost="0">
+
+*******************************************************************************************
+*                      ANONYMOUS: This monster Was made by Amy Azzkaban                   *
+*                                  CRAZY CREATIONS PACK VOL.1.                            *
+*                                EXCLUSIVO PARA BLACKTIBIA.ORG                            *
+*******************************************************************************************
+
+    <health now="20000" max="20000"/>
+    <look type="309" corpse="6080"/>
+    <targetchange interval="5000" chance="8"/>
+    <strategy attack="50" defense="0"/>
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="85"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" skill="100" attack="100"/>
+        <attack name="energy" interval="1000" chance="11" length="8" spread="0" min="-80" max="-600">
+            <attribute key="areaEffect" value="purpleenergy"/>
+        </attack>
+        <attack name="manadrain" interval="2000" chance="50" radius="5" target="0" min="-200" max="-800">
+            <attribute key="areaEffect" value="stun"/>
+        </attack>
+        <attack name="fire" interval="1000" chance="60" radius="5" target="1" min="-100" max="-600">
+            <attribute key="areaEffect" value="firearea"/>
+        </attack>
+        <attack name="lifedrain" interval="2000" chance="5" radius="7" target="0" min="-200" max="-700">
+            <attribute key="areaEffect" value="poff"/>
+        </attack>
+    </attacks>
+    <defenses armor="70" defense="65">
+        <defense name="healing" interval="1000" chance="11" min="150" max="450">
+            <attribute key="areaEffect" value="greenshimmer"/>
+        </defense>
+    </defenses>
+    <elements>
+        <element earthPercent="100"/>
+        <element deathPercent="100"/>
+    </elements>
+    <immunities>
+        <immunity name="physical"/>
+        <immunity name="energy"/>
+        <immunity name="poison"/>
+        <immunity name="paralyze"/>
+        <immunity name="outfit"/>
+        <immunity name="drunk"/>
+        <immunity name="invisible"/>
+    </immunities>
+    <voices interval="5000" chance="30">
+        <voice sentence="We are Anonymous, we are legion" yell="1"/>
+        <voice sentence="Your city is under hack attack" yell="1"/>
+    </voices>
+    <loot>
+    </loot>
+</monster>

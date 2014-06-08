@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Native Leader" nameDescription="a native leader" race="blood" experience="2000" speed="350" manacost="0">
+
+*******************************************************************************************
+*        NATIVE LEADER: This monster Was made by Amy Azzkaban and Nathaly Azzkaban        *
+*                             9.X mounted special edition native                          *
+*                                  Para servidores 9.10+                                  *
+*  ADVERTENCIA: Hay servidores que no tienen la funcion de mounts en los monstruos        *
+*******************************************************************************************
+
+<health now="4300" max="4300"/>
+<look type="154" head="58" body="114" legs="132" feet="132" addons="3" mount="369" corpse="6057"/>
+<targetchange interval="5000" chance="30"/>
+<strategy attack="100" defense="0"/>
+     <flags>
+           <flag summonable="0"/>
+           <flag attackable="1"/>
+           <flag hostile="1"/>
+           <flag illusionable="0"/>
+           <flag convinceable="0"/>
+           <flag pushable="0"/>
+           <flag canpushitems="1"/>
+           <flag canpushcreatures="1"/>
+           <flag targetdistance="3"/>
+           <flag staticattack="70"/>
+           <flag runonhealth="370"/>
+     </flags>
+     <attacks>
+              <attack name="melee" interval="2000" skill="90" attack="50"/>               
+              <attack name="poison" interval="1000" chance="50" range="6" min="-50" max="-280">
+              <attribute key="areaEffect" value="greenbubble"/>
+              <attribute key="shootEffect" value="poison"/>
+	 </attack>
+              <attack name="earth" interval="2000" chance="20" length="7" spread="0" min="-150" max="-100">
+              <attribute key="areaEffect" value="plantattack"/>
+     </attack>
+     </attacks>
+              <defenses armor="50" defense="50">
+              <defense name="healing" interval="1000" chance="9" min="90" max="250">
+              <attribute key="areaEffect" value="greenshimmer"/>
+     </defense>
+     </defenses>
+     <elements>
+              <element firePercent="30"/>
+              <element energyPercent="20"/>
+              <element icePercent="20"/>
+              <element earthPercent="60"/>
+     </elements>
+     <immunities>
+                <immunity outfit="1"/>
+                <immunity drunk="0"/>
+                <immunity invisible="1"/>
+     </immunities>
+     <voices interval="5000" chance="24">
+                <voice sentence="HU HU HU HUUUU." yell="1"/>
+        </voices>
+	<summons maxSummons="3">
+		<summon name="Lost Native" interval="5000" chance="35"/>
+	</summons>
+        <loot>
+        </loot>
+</monster>

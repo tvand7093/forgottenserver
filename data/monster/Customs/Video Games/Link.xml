@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Link" nameDescription="a Link" race="blood" experience="8000" speed="500" manacost="0">
+
+*******************************************************************************************
+*                        LINK: This monster Was made by Amy Azzkaban                      *
+*                                  CRAZY CREATIONS PACK VOL.1.                            *
+*                                EXCLUSIVO PARA BLACKTIBIA.ORG                            *
+*******************************************************************************************
+
+	<health now="16000" max="16000"/>
+	<look type="134" head="78" body="82" legs="115" feet="82" addons="2" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="50"/>
+		<flag runonhealth="10000"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="100"/>
+		<attack name="physical" interval="1000" chance="20" range="7" min="-150" max="-595">
+			<attribute key="shootEffect" value="whirlwindaxe"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="100" range="7" min="-120" max="-650">
+			<attribute key="shootEffect" value="whirlwindsword"/>
+		</attack>
+		<attack name="physical" interval="2300" chance="100" range="7" min="-180" max="-790">
+			<attribute key="shootEffect" value="flammingarrow"/>
+			<attribute key="areaEffect" value="firearea"/>			
+		</attack>
+		<attack name="physical" interval="2800" chance="100" range="7" min="-140" max="-940">
+			<attribute key="shootEffect" value="poisonarrow"/>
+			<attribute key="areaEffect" value="greenbubble"/>
+		</attack>
+	</attacks>
+	<defenses armor="70" defense="70">
+		<defense name="healing" interval="1000" chance="80" min="100" max="200">
+			<attribute key="areaEffect" value="greennote"/>
+		</defense>
+		<defense name="healing" interval="10000" chance="25" min="1000" max="2000">
+			<attribute key="areaEffect" value="purplenote"/>
+		</defense>
+		<defense name="speed" interval="6000" chance="40" speedchange="10000" duration="1500">
+			<attribute key="areaEffect" value="rednote"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="-30"/>
+		<element physicalPercent="30"/>
+		<element holyPercent="80"/>
+		<element deathPercent="-20"/>
+		<element energyPercent="-25"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Give me my Ocarin"/>
+		<voice sentence="Where is my Princess?"/>
+	</voices>
+</monster>

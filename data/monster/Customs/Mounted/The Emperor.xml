@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Emperor" nameDescription="a the emperor" race="blood" experience="14000" speed="400" manacost="0">
+
+*******************************************************************************************
+*                     THE EMPEROR: This monster Was made by Amy Azzkaban                  *
+*                               mounted monsters pack vol.6                               *
+*                                 Para servidores 9.4+                                    *
+*    ADVERTENCIA: Hay servidores que no tienen la funcion de mounts en los monstruos      *
+*       El item usado en el corpse al morir puede variar segun tu item,otb                *
+*******************************************************************************************
+
+	<health now="20000" max="20000"/>
+	<look type="367" head="0" body="95" legs="94" feet="0" addons="1" mount="341" corpse="6080"/>
+	<targetchange interval="2000" chance="25"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="70"/>
+		<flag runonhealth="6000"/>
+	</flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-10" max="-700"/>
+    <attack name="Whirlwind Throw" interval="2200" chance="21" min="-353" max="-443"/>
+	<attack name="physical" interval="2100" chance="17" radius="3" target="0" min="-226" max="-345">
+	<attribute key="areaEffect" value="blackspark"/>
+    </attack>
+		<attack name="physical" interval="1900" chance="19" radius="5" target="0" min="-466" max="-520">
+	  <attribute key="areaEffect" value="groundshaker"/>
+    </attack>
+		<attack name="speed" interval="2000" chance="31" radius="5" target="1" speechange="-220" duration="12000">
+	  <attribute key="areaEffect" value="sleep"/>
+	  <attribute key="shootEffect" value="burstarrow"/>
+    </attack>
+		<attack name="drunk" interval="2100" chance="21" radius="5" target="1" duration="10000">
+	  <attribute key="areaEffect" value="redfirework"/>
+	  <attribute key="shootEffect" value="burstarrow"/>
+    </attack>
+	</attacks>
+	<defenses armor="50" defense="60">
+		<defense name="healing" interval="2000" chance="25" min="40" max="170">
+			<attribute key="areaEffect" value="smoke"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="40"/>
+	</elements>
+	<immunities>
+		<immunity ice="1"/>
+		<immunity drown="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="GUARDS!"/>
+		<voice sentence="LEAVE OF MY IMPERIUM"/>
+	</voices>
+</monster>

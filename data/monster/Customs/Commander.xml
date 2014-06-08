@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<monster name="Commander" nameDescription="a commander" race="blood" experience="700" speed="350" manacost="0">
+
+*******************************************************************************************
+*                     COMMANDER: This monster Was made by Amy Azzkaban                    *
+*                               mounted monsters pack vol.6                               *
+*                                 Para servidores 9.44+                                   *
+*    ADVERTENCIA: Hay servidores que no tienen la funcion de mounts en los monstruos      *
+*       El item usado en el corpse al morir puede variar segun tu item,otb                *
+*******************************************************************************************
+
+<health now="1200" max="1200" />
+<look type="268" head="114" body="114" legs="114" feet="114" addons="3" mount="426" corpse="6080"/>
+<targetchange interval="2000" chance="7" />
+<strategy attack="100" defense="20" />
+<flags>
+<flag summonable="0" />
+<flag attackable="1" />
+<flag hostile="1" />
+<flag illusionable="0" />
+<flag convinceable="0" />
+<flag pushable="0" />
+<flag canpushitems="1" />
+<flag canpushcreatures="1" />
+<flag targetdistance="3" />
+<flag runonhealth="300" />
+</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="90"/>
+		<attack name="physical" interval="2000" chance="100" range="7" min="-30" max="-100">
+			<attribute key="shootEffect" value="spear"/>
+		</attack>
+		<attack name="physical" interval="2300" chance="100" range="7" min="-70" max="-190">
+			<attribute key="shootEffect" value="huntingspear"/>
+		</attack>
+		<attack name="physical" interval="2500" chance="100" range="7" min="-70" max="-310">
+			<attribute key="shootEffect" value="enchantedspear"/>
+		</attack>
+	</attacks>
+	<defenses armor="70" defense="70">
+		<defense name="healing" interval="2000" chance="38" min="90" max="200">
+			<attribute key="areaEffect" value="smoke"/>
+		</defense>
+		<defense name="speed" interval="4000" chance="40" speedchange="450" duration="1500">
+			<attribute key="areaEffect" value="smoke"/>
+		</defense>
+	</defenses>
+<immunities>
+<immunity paralyze="1" />
+<immunity invisible="1" />
+</immunities>
+<voices interval="3000" chance="10">
+<voice sentence="LEAVE NOW!"/>
+</voices>
+</monster>

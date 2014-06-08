@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Altair The Assassin Creed" nameDescription="an altair the assassin creed" race="blood" experience="8200" speed="499" manacost="0">
+
+*******************************************************************************************
+*             ALTAIR THE ASSASSIN CREED: This monster Was made by Amy Azzkaban            *
+*                                  CRAZY CREATIONS PACK VOL.2.                            *
+*                                EXCLUSIVO PARA BLACKTIBIA.ORG                            *
+*******************************************************************************************
+
+        <health now="15000" max="15000"/>
+        <look type="129" head="0" body="57" legs="0" feet="0" addons="3" corpse="6068"/>
+        <targetchange interval="5000" chance="19"/>
+        <strategy attack="100" defense="0"/>
+        <flags>
+                <flag summonable="0"/>
+                <flag attackable="1"/>
+                <flag hostile="1"/>
+                <flag illusionable="0"/>
+                <flag convinceable="0"/>
+                <flag pushable="0"/>
+                <flag canpushitems="1"/>
+                <flag canpushcreatures="1"/>
+                <flag staticattack="85"/>
+                <flag targetdistance="1"/>
+                <flag runonhealth="0"/>
+        </flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="120"/>
+		<attack name="physical" interval="1000" chance="43" range="7" min="-60" max="-298">
+			<attribute key="shootEffect" value="throwingstar"/>
+		</attack>
+		<attack name="drunk" interval="2000" chance="10" range="6">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="23" range="7" min="-60" max="-398">
+			<attribute key="shootEffect" value="throwingstar"/>
+		</attack>
+	</attacks>
+	<defenses armor="17" defense="40">
+		<defense name="invisible" interval="4000" chance="19" duration="2000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="-12"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Die!"/>
+		<voice sentence="Feel the hand of altair!"/>
+		<voice sentence="You are hunted!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="30" chance="35000"/><!-- gold coin -->
+		<item id="2148" countmax="20" chance="5000"/><!-- gold coin -->
+		<item id="2050" chance="22500"/><!-- torch -->
+		<item id="2148" countmax="14" chance="2750"/><!-- throwing star -->
+		<item id="7366" chance="15500"/><!-- viper star -->
+		<item id="2403" chance="7500"/><!-- knife -->
+		<item id="2404" chance="4750"/><!-- combat knife -->
+		<item id="2050" chance="22500"/><!-- torch -->
+		<item id="2457" chance="4350"/><!-- steel helmet -->
+		<item id="2510" chance="1600"/><!-- plate shield -->
+		<item id="3968" chance="400"/><!-- leopard armor -->
+		<item id="2513" chance="400"/><!-- battle shield -->
+		<item id="2145" countmax="2" chance="200"/><!-- small diamond -->
+		<item id="3969" chance="100"/><!-- horseman helmet -->
+	</loot>
+</monster>

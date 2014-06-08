@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zeus" nameDescription="a zeus" race="energy" experience="5000" speed="350" manacost="0">
+
+*******************************************************************************************
+*                           ZEUS: This monster Was made by Amy Azzkaban                   *
+*                                  CRAZY CREATIONS PACK VOL.2.                            *
+*                                EXCLUSIVO PARA BLACKTIBIA.ORG                            *
+*******************************************************************************************
+
+<health now="28000" max="28000"/>
+<look type="432" head="0" body="38" legs="0" feet="94" addons="2" corpse="6080"/>
+<targetchange interval="5000" chance="30"/>
+<strategy attack="100" defense="0"/>
+     <flags>
+           <flag summonable="0"/>
+           <flag attackable="1"/>
+           <flag hostile="1"/>
+           <flag illusionable="0"/>
+           <flag convinceable="0"/>
+           <flag pushable="0"/>
+           <flag canpushitems="1"/>
+           <flag canpushcreatures="1"/>
+           <flag targetdistance="1"/>
+           <flag staticattack="70"/>
+           <flag runonhealth="0"/>
+     </flags>
+     <attacks>
+              <attack name="melee" interval="2000" skill="90" attack="90"/>               
+	      <attack name="physical" interval="2000" chance="90" range="7" min="-40" max="-390">
+	      <attribute key="shootEffect" value="holy"/>
+	      <attribute key="areaEffect" value="holydamage"/>
+     </attack>
+	      <attack name="skills" interval="2000" chance="22" target="0" radius="4" shielding="-20">
+	      <attribute key="areaEffect" value="thunder"/>
+     </attack>
+              <attack name="speed" interval="4000" chance="27" radius="4" range="6" target="1" speedchange="-1900" duration="1500">
+              <attribute key="shootEffect" value="whirlwindsword"/>
+     </attack>
+     </attacks>
+              <defenses armor="80" defense="90">
+              <defense name="healing" interval="2000" chance="20" min="90" max="250">
+              <attribute key="areaEffect" value="thunder"/>
+     </defense>
+     </defenses>
+	<elements>
+		<element energyPercent="100"/>
+		<element physicalPercent="70"/>
+		<element holyPercent="100"/>
+		<element deathPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity lifedrain="1"/>
+                <immunity invisible="1"/>
+	</immunities>
+     <voices interval="5000" chance="24">
+                <voice sentence="Humm." yell="1"/>
+                <voice sentence="DIE STUPID MORTAL." yell="1"/>
+        </voices>
+        <loot>
+        </loot>
+</monster>

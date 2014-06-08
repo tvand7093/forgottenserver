@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mantos" nameDescription="a mantos" race="blood" experience="12000" speed="400" manacost="0">
+
+*******************************************************************************************
+*                        MANTOS: This monster Was made by Amy Azzkaban                    *
+*                               mounted monsters pack vol.6                               *
+*                                 Para servidores 9.4+                                    *
+*    ADVERTENCIA: Hay servidores que no tienen la funcion de mounts en los monstruos      *
+*       El item usado en el corpse al morir puede variar segun tu item,otb                *
+*******************************************************************************************
+
+	<health now="20000" max="20000"/>
+	<look type="463" head="94" addons="0" mount="450" corpse="6080"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="10000"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="190" attack="180"/>
+<attack name="ice" interval="10000" chance="70" target="0" radius="4" min="-200" max="-500">
+	<attribute key="areaEffect" value="bluebubble"/>
+	</attack>
+<attack name="ice" interval="2000" chance="18" target="1" radius="4" min="0" max="-300">
+	<attribute key="areaEffect" value="icearea"/>
+	<attribute key="shootEffect" value="smallice"/>
+	</attack>
+<attack name="ice" interval="2000" chance="18" target="1" radius="4" min="0" max="-260">
+	<attribute key="areaEffect" value="iceattack"/>	
+	</attack>
+</attacks>
+	<defenses armor="90" defense="90">
+		<defense name="healing" interval="2000" chance="100" min="10" max="300">
+			<attribute key="areaEffect" value="thunder"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="-10"/>
+		<element energyPercent="-25"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity invisible="1"/>
+		<immunity drown="1"/>
+		<immunity fire="1"/>
+		<immunity ice="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="glup glup!"/>
+	</voices>
+	<loot>
+	</loot>
+</monster>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<monster name="Krillin" nameDescription="a krillin" race="fire" experience="9000" speed="400" manacost="0">
+
+*******************************************************************************************
+*                        KRILLIN: This monster Was made by Amy Azzkaban                   *
+*                                  CRAZY CREATIONS PACK VOL.1.                            *
+*                                EXCLUSIVO PARA BLACKTIBIA.ORG                            *
+*******************************************************************************************
+
+    <health now="20000" max="20000"/> 
+    <look type="367" head="77" body="77" legs="0" feet="0" corpse="6080"/>
+    <targetchange interval="2000" chance="10"/> 
+    <strategy attack="100" defense="0"/> 
+    <flags> 
+        <flag summonable="0"/> 
+        <flag attackable="1"/> 
+        <flag hostile="1"/> 
+        <flag illusionable="0"/> 
+        <flag convinceable="0"/> 
+        <flag pushable="0"/> 
+        <flag canpushitems="1"/> 
+        <flag canpushcreatures="1"/> 
+        <flag targetdistance="1"/> 
+        <flag staticattack="90"/> 
+        <flag runonhealth="0"/> 
+    </flags> 
+    <attacks> 
+		<attack name="melee" interval="2000" skill="100" attack="100" fire="8000"/>
+		<attack name="physical" interval="2000" chance="30" range="7" min="-100" max="-1000">
+			<attribute key="shootEffect" value="holy"/>
+			<attribute key="areaEffect" value="holydamage"/>
+		</attack>		
+		<attack name="melee" interval="3000" chance="15" range="7" radius="3" target="0" min="-50" max="-1500">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="50" defense="70">
+		<defense name="healing" interval="2000" chance="30" min="200" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="20" speedchange="660" duration="2000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>	
+ <elements>
+<element firePercent="99"/>
+<element icePercent="-30"/>
+<element physicalPercent="30"/>
+</elements>
+<immunities>
+<immunity invisible="1"/>
+<immunity paralyze="1"/>
+<immunity fire="1"/>
+</immunities>
+</monster>

@@ -6,6 +6,64 @@
 	<monster name="Pike" file="Fishing/pike.xml"/>
 	<monster name="Tuber" file="Fishing/tuber.xml"/>
 	
+	<!-- Customs -->
+	<monster name="Amazon Rider" file="Customs/Amazon Rider.xml"/>
+	<monster name="Arachne" file="Customs/Arachne.xml"/>
+	<monster name="Bride of the Prince" file="Customs/Bride of the Prince.xml"/>
+	<monster name="Commander" file="Customs/Commander.xml"/>
+	<monster name="Crocodile Hunter" file="Customs/Crocodile Hunter.xml"/>
+	<monster name="Crystalis" file="Customs/Crystalis.xml"/>
+	<monster name="Divine Mage of the Light" file="Customs/Divine Mage of the Light.xml"/>
+	<monster name="Doctor" file="Customs/Doctor.xml"/>
+	<monster name="Energica" file="Customs/Energica.xml"/>
+	<monster name="Fire Spectre" file="Customs/Fire Spectre.xml"/>
+	<monster name="Guardian of the Desert" file="Customs/Guardian of the Desert.xml"/>
+	<monster name="Happy Clown" file="Customs/Happy Clown.xml"/>
+	<monster name="Hardek the Renegade" file="Customs/Hardek the Renegade.xml"/>
+	<monster name="Insectum" file="Customs/Insectum.xml"/>
+	<monster name="Lord of the Mountain" file="Customs/Lord of the Mountain.xml"/>
+	<monster name="Magic Bones" file="Customs/Magic Bones.xml"/>
+	<monster name="Monty" file="Customs/Monty.xml"/>
+	<monster name="Mounted Black Knight" file="Customs/Mounted Black Knight.xml"/>
+	<monster name="Mystical Assassin" file="Customs/Mystical Assassin.xml"/>
+	<monster name="Norseman Hunter" file="Customs/Norseman Hunter.xml"/>
+	<monster name="Orb Master" file="Customs/Orb Master.xml"/>
+	<monster name="Slave Orc Female" file="Customs/Slave Orc Female.xml"/>
+	<monster name="Slave Orc Male" file="Customs/Slave Orc Male.xml"/>
+	<monster name="The Nomad Prince" file="Customs/The Nomad Prince.xml"/>
+	<monster name="Varkhalis" file="Customs/Varkhalis.xml"/>
+	<monster name="Acquatic Queen" file="Customs/Mounted/Acquatic Queen.xml"/>
+	<monster name="Dragon Trainer" file="Customs/Mounted/Dragon Trainer.xml"/>
+	<monster name="Earth Witch of the Jungle" file="Customs/Mounted/Earth Witch of the Jungle.xml"/>
+	<monster name="Infernal Witch" file="Customs/Mounted/Infernal Witch.xml"/>
+	<monster name="Lord of the Ice" file="Customs/Mounted/Lord of the Ice.xml"/>
+	<monster name="Mantos" file="Customs/Mounted/Mantos.xml"/>
+	<monster name="Sharkey" file="Customs/Mounted/Sharkey.xml"/>
+	<monster name="Skorpius" file="Customs/Mounted/Skorpius.xml"/>
+	<monster name="Swamp Fighter" file="Customs/Mounted/Swamp Fighter.xml"/>
+	<monster name="The Emperor" file="Customs/Mounted/The Emperor.xml"/>
+	<monster name="The Hand of the Wizard" file="Customs/Mounted/The Hand of the Wizard.xml"/>
+	<monster name="Water Amazon" file="Customs/Mounted/Water Amazon.xml"/>
+	<monster name="Lost Native" file="Customs/Natives/Lost Native.xml"/>
+	<monster name="Native Leader" file="Customs/Natives/Native Leader.xml"/>
+	<monster name="Native of the Spider Cave" file="Customs/Natives/Native of the Spider Cave.xml"/>
+	<monster name="Native of the Ville" file="Customs/Natives/Native of the Ville.xml"/>
+	<monster name="Native Witch" file="Customs/Natives/Native Witch.xml"/>
+	<monster name="Rapid and Furious Boar" file="Customs/Natives/Rapid and Furious Boar.xml"/>
+	<monster name="Altair The Assassin Creed" file="Customs/Video Games/Altair The Assassin Creed.xml"/>
+	<monster name="Anonymous" file="Customs/Video Games/Anonymous.xml"/>
+	<monster name="Depredator" file="Customs/Video Games/Depredator.xml"/>
+	<monster name="Hero of Time Black" file="Customs/Video Games/Hero of Time Black.xml"/>
+	<monster name="Hero of Time Blue" file="Customs/Video Games/Hero of Time Blue.xml"/>
+	<monster name="Hero of Time Green" file="Customs/Video Games/Hero of Time Green.xml"/>
+	<monster name="Hero of Time Red" file="Customs/Video Games/Hero of Time Red.xml"/>
+	<monster name="Kratos" file="Customs/Video Games/Kratos.xml"/>
+	<monster name="Krillin" file="Customs/Video Games/Krillin.xml"/>
+	<monster name="Link" file="Customs/Video Games/Link.xml"/>
+	<monster name="Zeus" file="Customs/Video Games/Zeus.xml"/>
+
+	
+	
 	
 	<!-- Amazons -->
 	<monster name="Amazon" file="Amazons/amazon.xml"/>

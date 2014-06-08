@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Insectum" nameDescription="an insectum" race="venom" experience="12700" speed="350" manacost="0">
+
+*******************************************************************************************
+*                        INSECTUM: This monster Was made by Amy Azzkaban                  *
+*                               mounted monsters pack vol.6                               *
+*                                 Para servidores 9.4+                                    *
+*    ADVERTENCIA: Hay servidores que no tienen la funcion de mounts en los monstruos      *
+*       El item usado en el corpse al morir puede variar segun tu item,otb                *
+*******************************************************************************************
+
+	<health now="20000" max="20000"/>
+	<look type="465" head="81" body="58" legs="81" feet="81" addons="3" mount="461" corpse="6080"/>
+	<targetchange interval="6000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="15"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="1"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="120" poison="4000"/>
+        <attack name="melee" interval="500" skill="50" attack="50"/>
+		<attack name="poison" interval="2000" chance="17" length="8" spread="3" min="-90" max="-225">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="poisonfield" interval="2000" chance="50" range="7" radius="3" target="1">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+		<attack name="poison" interval="2000" chance="27" range="7" radius="4" target="1" min="-100" max="-320">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="poison" interval="2000" chance="29" range="7" target="1">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="poison" interval="15000" chance="38" range="7"  min="-600" max="-600">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="1" defense="2"/>
+	<elements>
+		<element earthPercent="12"/>
+		<element holyPercent="20"/>
+		<element icePercent="-6"/>
+		<element deathPercent="-10"/>
+	</elements>
+<immunities>
+<immunity paralyze="1" />
+<immunity invisible="1" />
+</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="zzzz!"/>
+	</voices>
+	<loot>
+	</loot>
+</monster>
