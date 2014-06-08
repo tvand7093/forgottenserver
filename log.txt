@@ -70,11 +70,65 @@ data/npc/scripts/food.lua:67: unexpected symbol near ','
 [Spawn::addMonster] Can not find Raging Spider
 [Spawn::addMonster] Can not find Raging Spider
 [Spawn::addMonster] Can not find Raging Spider
-[Spawn::addMonster] Can not find Raging Spider
-[Spawn::addMonster] Can not find Raging Spider
-[Spawn::addMonster] Can not find Raging Spider
-> Loaded house items in: 0 s
+[Spawn::addMonster] Can not find Raging Sp
+
+
+---------------------------------------
+READ ONLY FROM BELOW THIS POINT
+--------------------------------------
+
+
+
+The Forgotten Server - Version 1.0
+Compilied on Apr 22 2014 06:28:00 for arch x64
+
+A server developed by Mark Samman
+Visit our forum for updates, support, and resources: http://otland.net/.
+
+>> Loading config
+>> Establishing database connection... MySQL 5.5.35
+>> Running database manager
+>> Loading vocations
+>> Loading items
+>> Loading script systems
+[Warning - Event::checkScript] Can not load script: scripts/banking.lua
+data/talkactions/scripts/banking.lua:9: unexpected symbol near 'end'
+[Warning - Event::checkScript] Can not load script: scripts/banking.lua
+data/talkactions/scripts/banking.lua:9: unexpected symbol near 'end'
+>> Loading monsters
+[Warning - Monsters::deserializeSpell] Small Fry - Unknown areaEffect: ice
+[Warning - Monsters::loadMonster] Cant load spell. data/monster/Fishing/small fry.xml
+[Error - Monsters::deserializeSpell] - Fire Spectre - Unknown spell name: skills
+[Warning - Monsters::loadMonster] Cant load spell. data/monster/Customs/Fire Spectre.xml
+[Error - Monsters::deserializeSpell] - Fire Spectre - Unknown spell name: skills
+[Warning - Monsters::loadMonster] Cant load spell. data/monster/Customs/Fire Spectre.xml
+[Warning - Monsters::loadMonster] Unknown flag attribute: skull. data/monster/Customs/Mystical Assassin.xml
+[Error - Monsters::loadMonster] Failed to load data/monster/Customs/Video Games/Kratos.xml: Start-end tags mismatch
+[Error - Monsters::loadMonster] Failed to load data/monster/Customs/Video Games/Zeus.xml: Start-end tags mismatch
+[Error - Monsters::loadMonster] Failed to load data/monster/Bosses/doomhowl.xml: File was not found
+>> Loading outfits
+>> Checking world type... PVP
+>> Loading map
+> Map size: 2048x2048.
+Duplicate uniqueId 20001
+Duplicate uniqueId 30000
+Duplicate uniqueId 30000
+Duplicate uniqueId 30000
+Duplicate uniqueId 40479
+Duplicate uniqueId 40452
+Duplicate uniqueId 40448
+Duplicate uniqueId 2435
+> Map loading time: 3.757 seconds.
+[Warning - NpcScript::NpcScript] Can not load script: food.lua
+data/npc/scripts/food.lua:67: unexpected symbol near ','
+[Spawn::addMonster] Can not find Horse
+[Spawn::addMonster] Can not find Wild Horse
+[Spawn::addMonster] Can not find Horse
+[Spawn::addMonster] Can not find Horse
+[Spawn::addMonster] Can not find Wild Horse
+> Loaded house items in: 0.001 s
 >> Initializing gamestate
 >> Loaded all modules, server starting up...
+> Warning: The Forgotten Server has been executed as root user, please consider running it as a normal user.
 >> Ho Bisogno Cibo Server Online!
 
