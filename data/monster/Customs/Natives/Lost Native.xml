@@ -57,17 +57,17 @@
     <voice sentence="Nitha ooh!"/>
   </voices>
   <loot>
-   <item id="2148" chance="50000" countmax="52" /> -- gold coin
-   <item id="2671" chance="40000" countmax="3" /> --Ham
-   <item id="2148" chance="50000" countmax="53" /> -- gold coin
-   <item id="2148" chance="50000" countmax="12" /> -- gold coin
+   <item id="2148" chance="50000" countmax="52" /> 
+   <item id="2671" chance="40000" countmax="3" /> 
+   <item id="2148" chance="50000" countmax="53" /> 
+   <item id="2148" chance="50000" countmax="12" /> 
     <item id="1987" chance="100000">
       <inside>
-        <item id="2148" chance="50000" countmax="70" /> -- gold coin
-        <item id="2165" chance="3333" /> -- stealth ring
-        <item id="2200" chance="3000" /> -- protection amulet
-        <item id="2187" chance="2522" /> -- wand of Inferno
-        <item id="2148" chance="50000" countmax="22" /> -- gold coin
+        <item id="2148" chance="50000" countmax="70" /> 
+        <item id="2165" chance="3333" />
+        <item id="2200" chance="3000" /> 
+        <item id="2187" chance="2522" /> 
+        <item id="2148" chance="50000" countmax="22" /> 
       </inside>
     </item>
   </loot>

@@ -29,10 +29,7 @@
 	      <attack name="physical" interval="2000" chance="90" range="7" min="-40" max="-390">
 	      <attribute key="shootEffect" value="holy"/>
 	      <attribute key="areaEffect" value="holydamage"/>
-     </attack>
-	      <attack name="skills" interval="2000" chance="22" target="0" radius="4" shielding="-20">
-	      <attribute key="areaEffect" value="thunder"/>
-     </attack>
+   
               <attack name="speed" interval="4000" chance="27" radius="4" range="6" target="1" speedchange="-1900" duration="1500">
               <attribute key="shootEffect" value="whirlwindsword"/>
      </attack>
