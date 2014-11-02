@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <monster name="Venom Spider" namedescription="this thing bit spider-man" race="venom" experience="5050" speed="260" manacost="0">
-	<health now="5700" max="5700"/>
+	<health now="4700" max="4700"/>
 	<look type="352" corpse="12527"/>
 	<targetchange interval="4000" chance="10"/>
 	<strategy attack="100" defense="0"/>
@@ -18,7 +18,7 @@
 		<flag runonhealth="15"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="75" attack="70" poison="400"/>
+		<attack name="melee" interval="2000" skill="75" attack="70" poison="1200"/>
 		<attack name="speed" interval="2000" chance="20" range="7" speedchange="-200" duration="10000">
 			<attribute key="shootEffect" value="death"/>
 			<attribute key="areaEffect" value="mortarea"/>
@@ -26,7 +26,7 @@
 		<attack name="earth" interval="2000" chance="5" length="8" spread="3" target="0" min="-250" max="-700">
 			<attribute key="areaEffect" value="smallplants"/>
 		</attack>
-		<attack name="earth" interval="2000" chance="15" radius="6" min="-100" max="-200">
+		<attack name="earth" interval="2000" chance="15" radius="6" min="-200" max="-500">
 			<attribute key="areaEffect" value="carniphila"/>
 		</attack>
 		<attack name="manadrain" interval="2000" chance="10" length="6" spread="0" min="-200" max="-400">

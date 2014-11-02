@@ -18,7 +18,7 @@ local table = {
     ["War Horse"] = {price = 1000000, id = 17},
     ["Kingly Deer"] = {price = 1000000, id = 18},
     ["Tamed Panda"] = {price = 1000000, id = 19},
-    ["Dramedary"] = {price = 1000000, id = 20},
+    ["Dromedary"] = {price = 1000000, id = 20},
     ["Sandstone Scorion"] = {price = 1000000, id = 21},
     ["Rented Horse 1"] = {price = 1000000, id = 22},
     ["Fire War Horse"] = {price = 1000000, id = 23},
@@ -63,7 +63,7 @@ function creatureSayCallback(cid, type, msg)
       talkState[talkUser] = 1 
        if getPlayerPremiumDays(cid) >= 1 then 
         if not getPlayerMount(cid, t.id) then 
-         if doPlayerRemoveMoney(cid, t.cena) then 
+         if doPlayerRemoveMoney(cid, 1000000) then 
           doPlayerAddMount(cid, t.id) 
           selfSay("You lost "..t.price.." gp! for mount!", cid) 
           talkState[talkUser] = 0 

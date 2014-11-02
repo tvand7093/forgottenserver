@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Native of the Ville" nameDescription="a native of the ville" race="blood" experience="200" speed="350" manacost="0">
+<monster name="Native of the Ville" nameDescription="a native of the ville" race="blood" experience="4300" speed="350" manacost="0">
 
 *******************************************************************************************
 *       NATIVE OF THE VILLE: This monster Was made by Amy Azzkaban and Nathaly Azzkaban   *
@@ -8,7 +8,7 @@
 *  ADVERTENCIA: Hay servidores que no tienen la funcion de mounts en los monstruos        *
 *******************************************************************************************
 
-<health now="300" max="300"/>
+<health now="2800" max="2800"/>
 <look type="154" head="0" body="120" legs="132" feet="114" addons="2" mount="377" corpse="5994"/>
 <targetchange interval="5000" chance="30"/>
 <strategy attack="100" defense="0"/>
@@ -30,7 +30,7 @@
 	      <attack name="drunk" interval="2000" chance="10" range="7" radius="2" target="1">
 	      <attribute key="areaEffect" value="rednote"/>
      </attack>
-              <attack name="earth" interval="2000" chance="20" length="1" spread="0" min="-150" max="-100">
+              <attack name="earth" interval="2000" chance="20" length="1" spread="0" min="-150" max="-300">
               <attribute key="areaEffect" value="plantattack"/>
      </attack>
 	      <attack name="physical" interval="2000" chance="27" range="7" min="-16" max="-150">
@@ -57,7 +57,7 @@
                 <voice sentence="Grrrr." yell="1"/>
         </voices>
 	<summons maxSummons="3">
-		<summon name="Rapid And Furious Boar" interval="2000" chance="30" max="3"/>
+		<summon name="Rapid And Furious Boar" interval="2000" chance="30" max="12"/>
 	</summons>
         <loot>
         </loot>

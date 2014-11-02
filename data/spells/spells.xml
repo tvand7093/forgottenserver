@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spells>
+
+
+<!-- my spells custom -->
+	<instant group="attack" spellid="161" name="Ultimate Earth Beam" words="exevo mega tera" lvl="75" mana="285" direction="1" exhaustion="1200" groupcooldown="1200" needlearn="0" script="attack/custom/Ultimate Earth Beam.lua">
+			<vocation name="Druid"/>
+			<vocation name="Elder Druid"/>
+		</instant>
+	<instant group="attack" spellid="162" name="Ultimate Earth Explosion" words="exevo mega mas tera" lvl="100" mana="900" prem="1" selftarget="1" exhaustion="1200" groupcooldown="1200" needlearn="0" script="attack/custom/Ultimate Earth Explosion.lua">
+			<vocation name="Druid"/>
+			<vocation name="Elder Druid"/>
+		</instant>
+	
+	<instant group="attack" spellid="164" name="Ultimate Ice Beam" words="exevo mega frigo" lvl="75" mana="285" direction="1" exhaustion="1200" groupcooldown="1200" needlearn="0" script="attack/custom/Ultimate Ice Beam.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</instant>
+	
+	<instant group="attack" spellid="162" name="Ultimate Ice Explosion" words="exevo mega mas frigo" lvl="100" mana="900" prem="1" selftarget="1" exhaustion="1200" groupcooldown="1200" needlearn="0" script="attack/custom/Ultimate Ice Explosion.lua">
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</instant>
+	
+
+
+
+
+
+<!-- regular spells -->
 	<instant group="attack" spellid="62" name="Annihilation" words="exori gran ico" lvl="110" mana="300" prem="1" range="1" needtarget="1" blockwalls="1" needweapon="1" exhaustion="1200" groupcooldown="1200" needlearn="0" script="attack/annihilation.lua">
 		<vocation name="Knight"/>
 		<vocation name="Elite Knight"/>

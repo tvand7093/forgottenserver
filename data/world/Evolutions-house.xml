@@ -75,5 +75,5 @@
   <house name="Unnamed House #2330" houseid="2330" entryx="1033" entryy="553" entryz="7" rent="0" townid="1" size="20"/>
   <house name="Enigma fix 1" houseid="2331" entryx="1010" entryy="997" entryz="7" rent="0" townid="1" size="67"/>
   <house name="Unnamed House #2332" houseid="2332" entryx="1010" entryy="1003" entryz="7" rent="0" townid="1" size="84"/>
-  <house name="Jaden" houseid="2333" entryx="0" entryy="0" entryz="0" rent="0" townid="1" size="80"/>
+  <house name="Jaden" houseid="2333" entryx="1008" entryy="1007" entryz="7" rent="0" townid="1" size="80"/>
 </houses>

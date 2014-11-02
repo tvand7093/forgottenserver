@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Link" nameDescription="a Link" race="blood" experience="8000" speed="500" manacost="0">
+<monster name="Link" nameDescription="a Link" race="blood" experience="22000" speed="500" manacost="0">
 
 *******************************************************************************************
 *                        LINK: This monster Was made by Amy Azzkaban                      *
@@ -9,7 +9,7 @@
 
 	<health now="16000" max="16000"/>
 	<look type="134" head="78" body="82" legs="115" feet="82" addons="2" corpse="6080"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="5000" chance="40"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
